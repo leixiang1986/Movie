@@ -1,0 +1,18 @@
+//
+//  OkdeerCommUI-prefix.pch
+//  OkdeerCommonLibrary
+//
+//  Created by Mac on 16/10/26.
+//  Copyright © 2016年 Mac. All rights reserved.
+//
+
+#ifndef OkdeerCommUI_prefix_pch
+#define OkdeerCommUI_prefix_pch
+
+#import <UIKit/UIKit.h>
+#import "CCCategorHeader.h"
+#import "UIHeader.h"
+#import "OkdeerCommUIHeader.h"
+
+
+#endif /* OkdeerCommUI_prefix_pch */

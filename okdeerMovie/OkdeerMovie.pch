@@ -1,0 +1,33 @@
+//
+//  OkdeerMovie.pch
+//  okdeerMovie
+//
+//  Created by Mac on 16/12/12.
+//  Copyright © 2016年 okdeer. All rights reserved.
+//
+
+#ifndef OkdeerMovie_pch
+#define OkdeerMovie_pch
+
+#import "PublicHeader.h"
+#import "CCUtility.h"
+#import "OkdeerPublic.h"
+#import "OkdeerCommUI.h"
+#import "OkdeerCategory.h"
+#import "UIView+CCView.h"
+#import "CCNoDataView.h"
+#import "OkdeerUrlHeader.h"
+#import "CCMMPickerView.h"
+#import <MBProgressHUD.h>
+//#import "UIView+Extension.h"
+#import <Masonry.h>
+
+#define kShareImageBundleName           @"shareImageBundle"
+#define kShareImageHomeDirectory        @"Image"
+#define kShareImageToNoDataDirectory    @"Image/NoDataImage"
+#define kShareImgInNoData(imageName)    (imageFromBundleName(kShareImageBundleName, kShareImageToNoDataDirectory, imageName))       /**<获取没有数据的图片 */
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* OkdeerMovie_pch */

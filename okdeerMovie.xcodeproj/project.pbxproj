@@ -1,0 +1,1709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043327FB1DFEA03D00322FD8 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 043327FA1DFEA03D00322FD8 /* libc++abi.tbd */; };
+		043327FE1DFEA39100322FD8 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046BC5AB1DFE994200718A5A /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		047F393A1DF5333700DB71FF /* okdeerMovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047F39391DF5333700DB71FF /* okdeerMovieTests.m */; };
+		047F39451DF5333700DB71FF /* okdeerMovieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047F39441DF5333700DB71FF /* okdeerMovieUITests.m */; };
+		CF21E5FE1A810B63AFB6E20D /* libPods-okdeerMovie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 831607036A4671BB95B89A3B /* libPods-okdeerMovie.a */; };
+		D33C48D31E08C654000CAF12 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = D33C47B01E08C653000CAF12 /* AppDelegate.mm */; };
+		D33C48D41E08C654000CAF12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33C47B11E08C653000CAF12 /* Assets.xcassets */; };
+		D33C48D51E08C654000CAF12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33C47B21E08C653000CAF12 /* LaunchScreen.storyboard */; };
+		D33C48D61E08C654000CAF12 /* CCCustomActionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47B61E08C653000CAF12 /* CCCustomActionTableViewCell.m */; };
+		D33C48D71E08C654000CAF12 /* CCCustomActionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C47B71E08C653000CAF12 /* CCCustomActionTableViewCell.xib */; };
+		D33C48D81E08C654000CAF12 /* CCCustomActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47B91E08C653000CAF12 /* CCCustomActionView.m */; };
+		D33C48D91E08C654000CAF12 /* CCNameAndIdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47BB1E08C653000CAF12 /* CCNameAndIdModel.m */; };
+		D33C48DA1E08C654000CAF12 /* CCNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47BD1E08C653000CAF12 /* CCNoDataView.m */; };
+		D33C48DB1E08C654000CAF12 /* CCUserInforDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47BF1E08C653000CAF12 /* CCUserInforDatePickerView.m */; };
+		D33C48DC1E08C654000CAF12 /* CCHttpRequest+CCLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47C21E08C654000CAF12 /* CCHttpRequest+CCLoginRequest.m */; };
+		D33C48DD1E08C654000CAF12 /* CCMyUserInforModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47C41E08C654000CAF12 /* CCMyUserInforModel.m */; };
+		D33C48DE1E08C654000CAF12 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D33C47C71E08C654000CAF12 /* Info.plist */; };
+		D33C48DF1E08C654000CAF12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47C81E08C654000CAF12 /* main.m */; };
+		D33C48E01E08C654000CAF12 /* CCCinemaDetailFilmsListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47CD1E08C654000CAF12 /* CCCinemaDetailFilmsListModel.m */; };
+		D33C48E11E08C654000CAF12 /* CCCinemaDetailFilmsSceduleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47CF1E08C654000CAF12 /* CCCinemaDetailFilmsSceduleModel.m */; };
+		D33C48E21E08C654000CAF12 /* CCCinemaDetailFilmsScheduleDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47D11E08C654000CAF12 /* CCCinemaDetailFilmsScheduleDateModel.m */; };
+		D33C48E31E08C654000CAF12 /* CCCinemaListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47D31E08C654000CAF12 /* CCCinemaListModel.m */; };
+		D33C48E41E08C654000CAF12 /* CCCinemaDetailMsgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47D61E08C654000CAF12 /* CCCinemaDetailMsgVC.m */; };
+		D33C48E51E08C654000CAF12 /* CCCinemaDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47D81E08C654000CAF12 /* CCCinemaDetailVC.m */; };
+		D33C48E61E08C654000CAF12 /* CCCinemaPreferentialTipsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47DA1E08C654000CAF12 /* CCCinemaPreferentialTipsVC.m */; };
+		D33C48E71E08C654000CAF12 /* CCCinemaPreferentialTipsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C47DB1E08C654000CAF12 /* CCCinemaPreferentialTipsVC.xib */; };
+		D33C48E81E08C654000CAF12 /* CCCinemaFilterTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47DE1E08C654000CAF12 /* CCCinemaFilterTableView.m */; };
+		D33C48E91E08C654000CAF12 /* CCCinemaFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47E01E08C654000CAF12 /* CCCinemaFilterView.m */; };
+		D33C48EA1E08C654000CAF12 /* CCCinemaFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C47E11E08C654000CAF12 /* CCCinemaFilterView.xib */; };
+		D33C48EB1E08C654000CAF12 /* UIButton+TitleAndImageDispaly.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47E31E08C654000CAF12 /* UIButton+TitleAndImageDispaly.m */; };
+		D33C48EC1E08C654000CAF12 /* CCCinemaDetailMsgDashBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47E61E08C654000CAF12 /* CCCinemaDetailMsgDashBorderView.m */; };
+		D33C48ED1E08C654000CAF12 /* CCCinemaDetailMsgSeatCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47E81E08C654000CAF12 /* CCCinemaDetailMsgSeatCollectionCell.m */; };
+		D33C48EE1E08C654000CAF12 /* CCCinemaDetailMsgSeatCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C47E91E08C654000CAF12 /* CCCinemaDetailMsgSeatCollectionCell.xib */; };
+		D33C48EF1E08C654000CAF12 /* CCCinemaDetailCinemaMsgView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47EC1E08C654000CAF12 /* CCCinemaDetailCinemaMsgView.m */; };
+		D33C48F01E08C654000CAF12 /* CCCinemaDetailCinemaMsgView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C47ED1E08C654000CAF12 /* CCCinemaDetailCinemaMsgView.xib */; };
+		D33C48F11E08C654000CAF12 /* CCCinemaDetailFilmsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47EF1E08C654000CAF12 /* CCCinemaDetailFilmsCollectionViewCell.m */; };
+		D33C48F21E08C654000CAF12 /* CCCinemaDetailFilmsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C47F01E08C654000CAF12 /* CCCinemaDetailFilmsCollectionViewCell.xib */; };
+		D33C48F31E08C654000CAF12 /* CCCinemaDetailFilmsDateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47F21E08C654000CAF12 /* CCCinemaDetailFilmsDateCollectionViewCell.m */; };
+		D33C48F41E08C654000CAF12 /* CCCinemaDetailFilmsDateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C47F31E08C654000CAF12 /* CCCinemaDetailFilmsDateCollectionViewCell.xib */; };
+		D33C48F51E08C654000CAF12 /* CCCinemaDetailFilmsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47F51E08C654000CAF12 /* CCCinemaDetailFilmsLayout.m */; };
+		D33C48F61E08C655000CAF12 /* CCCinemaDetailFilmsNoSceduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47F71E08C654000CAF12 /* CCCinemaDetailFilmsNoSceduleView.m */; };
+		D33C48F71E08C655000CAF12 /* CCCinemaDetailFilmsNoSceduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C47F81E08C654000CAF12 /* CCCinemaDetailFilmsNoSceduleView.xib */; };
+		D33C48F81E08C655000CAF12 /* CCCinemaDetailFilmsScheduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47FA1E08C654000CAF12 /* CCCinemaDetailFilmsScheduleView.m */; };
+		D33C48F91E08C655000CAF12 /* CCCinemaDetailFilmsScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C47FB1E08C654000CAF12 /* CCCinemaDetailFilmsScheduleView.xib */; };
+		D33C48FA1E08C655000CAF12 /* CCCinemaDetailFilmsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C47FD1E08C654000CAF12 /* CCCinemaDetailFilmsView.m */; };
+		D33C48FB1E08C655000CAF12 /* CCCinemaDetailFilmsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C47FE1E08C654000CAF12 /* CCCinemaDetailFilmsView.xib */; };
+		D33C48FC1E08C655000CAF12 /* CCCinemaDetailScaduleFilmsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48001E08C654000CAF12 /* CCCinemaDetailScaduleFilmsCell.m */; };
+		D33C48FD1E08C655000CAF12 /* CCCinemaDetailScaduleFilmsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C48011E08C654000CAF12 /* CCCinemaDetailScaduleFilmsCell.xib */; };
+		D33C48FE1E08C655000CAF12 /* CCFilmDetailInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48041E08C654000CAF12 /* CCFilmDetailInfoModel.m */; };
+		D33C48FF1E08C655000CAF12 /* CCFilmPlayingListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48061E08C654000CAF12 /* CCFilmPlayingListModel.m */; };
+		D33C49001E08C655000CAF12 /* CCFilmOrderDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C480A1E08C654000CAF12 /* CCFilmOrderDetailModel.m */; };
+		D33C49011E08C655000CAF12 /* CCFilmOrderListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C480C1E08C654000CAF12 /* CCFilmOrderListModel.m */; };
+		D33C49021E08C655000CAF12 /* CCFilmOrderTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C480E1E08C654000CAF12 /* CCFilmOrderTypeModel.m */; };
+		D33C49031E08C655000CAF12 /* CCFilmOrderDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48111E08C654000CAF12 /* CCFilmOrderDetailView.m */; };
+		D33C49041E08C655000CAF12 /* CCFilmOrderDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C48121E08C654000CAF12 /* CCFilmOrderDetailView.xib */; };
+		D33C49051E08C655000CAF12 /* CCFilmOrderListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48141E08C654000CAF12 /* CCFilmOrderListCell.m */; };
+		D33C49061E08C655000CAF12 /* CCFilmOrderListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C48151E08C654000CAF12 /* CCFilmOrderListCell.xib */; };
+		D33C49071E08C655000CAF12 /* CCFilmOrderDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48181E08C654000CAF12 /* CCFilmOrderDetailVC.m */; };
+		D33C49081E08C655000CAF12 /* CCFilmOrderListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C481A1E08C654000CAF12 /* CCFilmOrderListVC.m */; };
+		D33C49091E08C655000CAF12 /* movie_arrow_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C481E1E08C654000CAF12 /* movie_arrow_right@2x.png */; };
+		D33C490A1E08C655000CAF12 /* moviebooking_2d@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C481F1E08C654000CAF12 /* moviebooking_2d@2x.png */; };
+		D33C490B1E08C655000CAF12 /* moviebooking_3d@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48201E08C654000CAF12 /* moviebooking_3d@2x.png */; };
+		D33C490C1E08C655000CAF12 /* moviebooking_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48211E08C654000CAF12 /* moviebooking_arrow@2x.png */; };
+		D33C490D1E08C655000CAF12 /* moviebooking_arrow_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48221E08C654000CAF12 /* moviebooking_arrow_default@2x.png */; };
+		D33C490E1E08C655000CAF12 /* moviebooking_arrow_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48231E08C654000CAF12 /* moviebooking_arrow_right@2x.png */; };
+		D33C490F1E08C655000CAF12 /* moviebooking_arrow_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48241E08C654000CAF12 /* moviebooking_arrow_select@2x.png */; };
+		D33C49101E08C655000CAF12 /* moviebooking_bus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48251E08C654000CAF12 /* moviebooking_bus@2x.png */; };
+		D33C49111E08C655000CAF12 /* moviebooking_busWay_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48261E08C654000CAF12 /* moviebooking_busWay_dark@2x.png */; };
+		D33C49121E08C655000CAF12 /* moviebooking_busWay_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48271E08C654000CAF12 /* moviebooking_busWay_light@2x.png */; };
+		D33C49131E08C655000CAF12 /* moviebooking_call@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48281E08C654000CAF12 /* moviebooking_call@2x.png */; };
+		D33C49141E08C655000CAF12 /* moviebooking_changeDirection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48291E08C654000CAF12 /* moviebooking_changeDirection@2x.png */; };
+		D33C49151E08C655000CAF12 /* moviebooking_ciname_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C482A1E08C654000CAF12 /* moviebooking_ciname_default@2x.png */; };
+		D33C49161E08C655000CAF12 /* moviebooking_cinema_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C482B1E08C654000CAF12 /* moviebooking_cinema_default@2x.png */; };
+		D33C49171E08C655000CAF12 /* moviebooking_cinema_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C482C1E08C654000CAF12 /* moviebooking_cinema_selected@2x.png */; };
+		D33C49181E08C655000CAF12 /* moviebooking_coupon_newer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C482D1E08C654000CAF12 /* moviebooking_coupon_newer@2x.png */; };
+		D33C49191E08C655000CAF12 /* moviebooking_coupon_seat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C482E1E08C654000CAF12 /* moviebooking_coupon_seat@2x.png */; };
+		D33C491A1E08C655000CAF12 /* moviebooking_driving@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C482F1E08C654000CAF12 /* moviebooking_driving@2x.png */; };
+		D33C491B1E08C655000CAF12 /* moviebooking_drivingWay_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48301E08C654000CAF12 /* moviebooking_drivingWay_dark@2x.png */; };
+		D33C491C1E08C655000CAF12 /* moviebooking_drivingWay_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48311E08C654000CAF12 /* moviebooking_drivingWay_light@2x.png */; };
+		D33C491D1E08C655000CAF12 /* moviebooking_film_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48321E08C654000CAF12 /* moviebooking_film_default@2x.png */; };
+		D33C491E1E08C655000CAF12 /* moviebooking_film_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48331E08C654000CAF12 /* moviebooking_film_selected@2x.png */; };
+		D33C491F1E08C655000CAF12 /* moviebooking_imax3d@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48341E08C654000CAF12 /* moviebooking_imax3d@2x.png */; };
+		D33C49201E08C655000CAF12 /* moviebooking_level@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48351E08C654000CAF12 /* moviebooking_level@2x.png */; };
+		D33C49211E08C655000CAF12 /* moviebooking_lover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48361E08C654000CAF12 /* moviebooking_lover@2x.png */; };
+		D33C49221E08C655000CAF12 /* moviebooking_lover_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48371E08C654000CAF12 /* moviebooking_lover_left@2x.png */; };
+		D33C49231E08C655000CAF12 /* moviebooking_lover_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48381E08C654000CAF12 /* moviebooking_lover_right@2x.png */; };
+		D33C49241E08C655000CAF12 /* moviebooking_maintain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48391E08C654000CAF12 /* moviebooking_maintain@2x.png */; };
+		D33C49251E08C655000CAF12 /* moviebooking_mapPin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C483A1E08C654000CAF12 /* moviebooking_mapPin@2x.png */; };
+		D33C49261E08C655000CAF12 /* moviebooking_nodata_film@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C483B1E08C654000CAF12 /* moviebooking_nodata_film@2x.png */; };
+		D33C49271E08C655000CAF12 /* moviebooking_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C483C1E08C654000CAF12 /* moviebooking_phone@2x.png */; };
+		D33C49281E08C655000CAF12 /* moviebooking_screencenter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C483D1E08C654000CAF12 /* moviebooking_screencenter@2x.png */; };
+		D33C49291E08C655000CAF12 /* moviebooking_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C483E1E08C654000CAF12 /* moviebooking_search@2x.png */; };
+		D33C492A1E08C655000CAF12 /* moviebooking_seat_lover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C483F1E08C654000CAF12 /* moviebooking_seat_lover@2x.png */; };
+		D33C492B1E08C655000CAF12 /* moviebooking_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48401E08C654000CAF12 /* moviebooking_selected@2x.png */; };
+		D33C492C1E08C655000CAF12 /* moviebooking_selled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48411E08C654000CAF12 /* moviebooking_selled@2x.png */; };
+		D33C492D1E08C655000CAF12 /* moviebooking_walking@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48421E08C654000CAF12 /* moviebooking_walking@2x.png */; };
+		D33C492E1E08C655000CAF12 /* moviebooking_walkingWay_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48431E08C654000CAF12 /* moviebooking_walkingWay_dark@2x.png */; };
+		D33C492F1E08C655000CAF12 /* moviebooking_walkingWay_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48441E08C654000CAF12 /* moviebooking_walkingWay_light@2x.png */; };
+		D33C49301E08C655000CAF12 /* movie_arrow_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48461E08C654000CAF12 /* movie_arrow_right@3x.png */; };
+		D33C49311E08C655000CAF12 /* moviebooking_2d@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48471E08C654000CAF12 /* moviebooking_2d@3x.png */; };
+		D33C49321E08C655000CAF12 /* moviebooking_3d@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48481E08C654000CAF12 /* moviebooking_3d@3x.png */; };
+		D33C49331E08C655000CAF12 /* moviebooking_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48491E08C654000CAF12 /* moviebooking_arrow@3x.png */; };
+		D33C49341E08C655000CAF12 /* moviebooking_arrow_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C484A1E08C654000CAF12 /* moviebooking_arrow_default@3x.png */; };
+		D33C49351E08C655000CAF12 /* moviebooking_arrow_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C484B1E08C654000CAF12 /* moviebooking_arrow_right@3x.png */; };
+		D33C49361E08C655000CAF12 /* moviebooking_arrow_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C484C1E08C654000CAF12 /* moviebooking_arrow_select@3x.png */; };
+		D33C49371E08C655000CAF12 /* moviebooking_bus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C484D1E08C654000CAF12 /* moviebooking_bus@3x.png */; };
+		D33C49381E08C655000CAF12 /* moviebooking_busWay_dark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C484E1E08C654000CAF12 /* moviebooking_busWay_dark@3x.png */; };
+		D33C49391E08C655000CAF12 /* moviebooking_busWay_light@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C484F1E08C654000CAF12 /* moviebooking_busWay_light@3x.png */; };
+		D33C493A1E08C655000CAF12 /* moviebooking_call@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48501E08C654000CAF12 /* moviebooking_call@3x.png */; };
+		D33C493B1E08C655000CAF12 /* moviebooking_changeDirection@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48511E08C654000CAF12 /* moviebooking_changeDirection@3x.png */; };
+		D33C493C1E08C655000CAF12 /* moviebooking_ciname_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48521E08C654000CAF12 /* moviebooking_ciname_default@3x.png */; };
+		D33C493D1E08C655000CAF12 /* moviebooking_cinema_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48531E08C654000CAF12 /* moviebooking_cinema_default@3x.png */; };
+		D33C493E1E08C655000CAF12 /* moviebooking_cinema_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48541E08C654000CAF12 /* moviebooking_cinema_selected@3x.png */; };
+		D33C493F1E08C655000CAF12 /* moviebooking_coupon_newer@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48551E08C654000CAF12 /* moviebooking_coupon_newer@3x.png */; };
+		D33C49401E08C655000CAF12 /* moviebooking_coupon_seat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48561E08C654000CAF12 /* moviebooking_coupon_seat@3x.png */; };
+		D33C49411E08C655000CAF12 /* moviebooking_driving@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48571E08C654000CAF12 /* moviebooking_driving@3x.png */; };
+		D33C49421E08C655000CAF12 /* moviebooking_drivingWay_dark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48581E08C654000CAF12 /* moviebooking_drivingWay_dark@3x.png */; };
+		D33C49431E08C655000CAF12 /* moviebooking_drivingWay_light@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48591E08C654000CAF12 /* moviebooking_drivingWay_light@3x.png */; };
+		D33C49441E08C655000CAF12 /* moviebooking_film_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C485A1E08C654000CAF12 /* moviebooking_film_default@3x.png */; };
+		D33C49451E08C655000CAF12 /* moviebooking_film_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C485B1E08C654000CAF12 /* moviebooking_film_selected@3x.png */; };
+		D33C49461E08C655000CAF12 /* moviebooking_imax3d@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C485C1E08C654000CAF12 /* moviebooking_imax3d@3x.png */; };
+		D33C49471E08C655000CAF12 /* moviebooking_level@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C485D1E08C654000CAF12 /* moviebooking_level@3x.png */; };
+		D33C49481E08C655000CAF12 /* moviebooking_lover@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C485E1E08C654000CAF12 /* moviebooking_lover@3x.png */; };
+		D33C49491E08C655000CAF12 /* moviebooking_lover_left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C485F1E08C654000CAF12 /* moviebooking_lover_left@3x.png */; };
+		D33C494A1E08C655000CAF12 /* moviebooking_lover_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48601E08C654000CAF12 /* moviebooking_lover_right@3x.png */; };
+		D33C494B1E08C655000CAF12 /* moviebooking_maintain@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48611E08C654000CAF12 /* moviebooking_maintain@3x.png */; };
+		D33C494C1E08C655000CAF12 /* moviebooking_mapPin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48621E08C654000CAF12 /* moviebooking_mapPin@3x.png */; };
+		D33C494D1E08C655000CAF12 /* moviebooking_nodata_film@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48631E08C654000CAF12 /* moviebooking_nodata_film@3x.png */; };
+		D33C494E1E08C655000CAF12 /* moviebooking_phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48641E08C654000CAF12 /* moviebooking_phone@3x.png */; };
+		D33C494F1E08C655000CAF12 /* moviebooking_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48651E08C654000CAF12 /* moviebooking_search@3x.png */; };
+		D33C49501E08C655000CAF12 /* moviebooking_seat_lover@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48661E08C654000CAF12 /* moviebooking_seat_lover@3x.png */; };
+		D33C49511E08C655000CAF12 /* moviebooking_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48671E08C654000CAF12 /* moviebooking_selected@3x.png */; };
+		D33C49521E08C655000CAF12 /* moviebooking_selled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48681E08C654000CAF12 /* moviebooking_selled@3x.png */; };
+		D33C49531E08C655000CAF12 /* moviebooking_walking@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48691E08C654000CAF12 /* moviebooking_walking@3x.png */; };
+		D33C49541E08C655000CAF12 /* moviebooking_walkingWay_dark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C486A1E08C654000CAF12 /* moviebooking_walkingWay_dark@3x.png */; };
+		D33C49551E08C655000CAF12 /* moviebooking_walkingWay_light@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C486B1E08C654000CAF12 /* moviebooking_walkingWay_light@3x.png */; };
+		D33C49561E08C655000CAF12 /* CCHttpRequest+Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C486E1E08C654000CAF12 /* CCHttpRequest+Movie.m */; };
+		D33C49571E08C655000CAF12 /* CCCinemaAddPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48711E08C654000CAF12 /* CCCinemaAddPointView.m */; };
+		D33C49581E08C655000CAF12 /* CCCinemaLinesTbv.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48731E08C654000CAF12 /* CCCinemaLinesTbv.m */; };
+		D33C49591E08C655000CAF12 /* CCFilmOnWillPlayingTbvCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48751E08C654000CAF12 /* CCFilmOnWillPlayingTbvCell.m */; };
+		D33C495A1E08C655000CAF12 /* CCFilmOnWillPlayingTbvCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C48761E08C654000CAF12 /* CCFilmOnWillPlayingTbvCell.xib */; };
+		D33C495B1E08C655000CAF12 /* CCFilmSeatView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48781E08C654000CAF12 /* CCFilmSeatView.m */; };
+		D33C495C1E08C655000CAF12 /* CCFilmSelectedSeatView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C487A1E08C654000CAF12 /* CCFilmSelectedSeatView.m */; };
+		D33C495D1E08C655000CAF12 /* CCFilmShowingTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C487C1E08C654000CAF12 /* CCFilmShowingTableCell.m */; };
+		D33C495E1E08C655000CAF12 /* CCFilmShowingTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C487D1E08C654000CAF12 /* CCFilmShowingTableCell.xib */; };
+		D33C495F1E08C655000CAF12 /* CCMovieTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C487F1E08C654000CAF12 /* CCMovieTableCell.m */; };
+		D33C49601E08C655000CAF12 /* CCMovieTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C48801E08C654000CAF12 /* CCMovieTableCell.xib */; };
+		D33C49611E08C655000CAF12 /* CCNaviLineTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48821E08C654000CAF12 /* CCNaviLineTableCell.m */; };
+		D33C49621E08C655000CAF12 /* CCNaviLineTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C48831E08C654000CAF12 /* CCNaviLineTableCell.xib */; };
+		D33C49631E08C655000CAF12 /* FilmCinemaDateCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48851E08C654000CAF12 /* FilmCinemaDateCollectionCell.m */; };
+		D33C49641E08C655000CAF12 /* FilmOnPlayingTbv.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48871E08C654000CAF12 /* FilmOnPlayingTbv.m */; };
+		D33C49651E08C655000CAF12 /* FilmWillPlayingTbv.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48891E08C654000CAF12 /* FilmWillPlayingTbv.m */; };
+		D33C49661E08C655000CAF12 /* MovieBooking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33C488A1E08C654000CAF12 /* MovieBooking.storyboard */; };
+		D33C49671E08C655000CAF12 /* choosable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C488D1E08C654000CAF12 /* choosable@2x.png */; };
+		D33C49681E08C655000CAF12 /* choosable@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C488E1E08C654000CAF12 /* choosable@3x.png */; };
+		D33C49691E08C655000CAF12 /* screenBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C488F1E08C654000CAF12 /* screenBg@2x.png */; };
+		D33C496A1E08C655000CAF12 /* screenBg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48901E08C654000CAF12 /* screenBg@3x.png */; };
+		D33C496B1E08C655000CAF12 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48911E08C654000CAF12 /* selected@2x.png */; };
+		D33C496C1E08C655000CAF12 /* selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48921E08C654000CAF12 /* selected@3x.png */; };
+		D33C496D1E08C655000CAF12 /* sold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48931E08C654000CAF12 /* sold@2x.png */; };
+		D33C496E1E08C655000CAF12 /* sold@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D33C48941E08C654000CAF12 /* sold@3x.png */; };
+		D33C496F1E08C655000CAF12 /* ZFSeatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48971E08C654000CAF12 /* ZFSeatModel.m */; };
+		D33C49701E08C655000CAF12 /* ZFSeatsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48991E08C654000CAF12 /* ZFSeatsModel.m */; };
+		D33C49711E08C655000CAF12 /* seats 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = D33C489A1E08C654000CAF12 /* seats 2.plist */; };
+		D33C49721E08C655000CAF12 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C489D1E08C654000CAF12 /* UIView+Extension.m */; };
+		D33C49731E08C655000CAF12 /* ZFAppLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C489F1E08C654000CAF12 /* ZFAppLogoView.m */; };
+		D33C49741E08C655000CAF12 /* ZFCenterLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48A11E08C654000CAF12 /* ZFCenterLineView.m */; };
+		D33C49751E08C655000CAF12 /* ZFHallLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48A31E08C654000CAF12 /* ZFHallLogoView.m */; };
+		D33C49761E08C655000CAF12 /* ZFIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48A51E08C654000CAF12 /* ZFIndicatorView.m */; };
+		D33C49771E08C655000CAF12 /* ZFRowIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48A71E08C654000CAF12 /* ZFRowIndexView.m */; };
+		D33C49781E08C655000CAF12 /* ZFSeatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48A91E08C654000CAF12 /* ZFSeatButton.m */; };
+		D33C49791E08C655000CAF12 /* ZFSeatSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48AC1E08C654000CAF12 /* ZFSeatSelectionView.m */; };
+		D33C497A1E08C655000CAF12 /* ZFSeatsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48AE1E08C654000CAF12 /* ZFSeatsView.m */; };
+		D33C497B1E08C655000CAF12 /* CCConfirmOrderPrivilegeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48B11E08C654000CAF12 /* CCConfirmOrderPrivilegeVC.m */; };
+		D33C497C1E08C655000CAF12 /* CCFilmCinemaMapLineDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48B31E08C654000CAF12 /* CCFilmCinemaMapLineDetailVC.m */; };
+		D33C497D1E08C655000CAF12 /* CCFilmCinemaMapLinesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48B51E08C654000CAF12 /* CCFilmCinemaMapLinesVC.m */; };
+		D33C497E1E08C655000CAF12 /* CCFilmCinemaMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48B71E08C654000CAF12 /* CCFilmCinemaMapVC.m */; };
+		D33C497F1E08C655000CAF12 /* CCFilmConfirmOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48B91E08C654000CAF12 /* CCFilmConfirmOrderVC.m */; };
+		D33C49801E08C655000CAF12 /* CCFilmDetailCinemaSubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48BB1E08C654000CAF12 /* CCFilmDetailCinemaSubVC.m */; };
+		D33C49811E08C655000CAF12 /* CCFilmDetailCinemaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48BD1E08C654000CAF12 /* CCFilmDetailCinemaVC.m */; };
+		D33C49821E08C655000CAF12 /* CCFilmDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48BF1E08C654000CAF12 /* CCFilmDetailsViewController.m */; };
+		D33C49831E08C655000CAF12 /* CCFilmSeatsDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48C11E08C654000CAF12 /* CCFilmSeatsDetailVC.m */; };
+		D33C49841E08C655000CAF12 /* CCFilmsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48C31E08C654000CAF12 /* CCFilmsViewController.m */; };
+		D33C49851E08C655000CAF12 /* CCMovieMainTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48C51E08C654000CAF12 /* CCMovieMainTabbarVC.m */; };
+		D33C49861E08C655000CAF12 /* CCMovieOrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48C71E08C654000CAF12 /* CCMovieOrderDetailViewController.m */; };
+		D33C49871E08C655000CAF12 /* CCMovieOrderDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D33C48C81E08C654000CAF12 /* CCMovieOrderDetailViewController.xib */; };
+		D33C49881E08C655000CAF12 /* CCMovieOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48CA1E08C654000CAF12 /* CCMovieOrderViewController.m */; };
+		D33C49891E08C655000CAF12 /* CCMovieSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48CC1E08C654000CAF12 /* CCMovieSearchViewController.m */; };
+		D33C498A1E08C655000CAF12 /* CCMoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48CE1E08C654000CAF12 /* CCMoviesViewController.m */; };
+		D33C498C1E08C655000CAF12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C48D21E08C654000CAF12 /* ViewController.m */; };
+		D33C498F1E09003C000CAF12 /* UIImage+vImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C498E1E09003C000CAF12 /* UIImage+vImage.m */; };
+		D33C49921E09065D000CAF12 /* CCCinemaDetailFilmModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D33C49911E09065D000CAF12 /* CCCinemaDetailFilmModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047F39361DF5333700DB71FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047F39141DF5333700DB71FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047F391B1DF5333700DB71FF;
+			remoteInfo = okdeerMovie;
+		};
+		047F39411DF5333700DB71FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047F39141DF5333700DB71FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047F391B1DF5333700DB71FF;
+			remoteInfo = okdeerMovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043327FA1DFEA03D00322FD8 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		043327FC1DFEA35F00322FD8 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		046BC5A91DFE96A400718A5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		046BC5AB1DFE994200718A5A /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		047F391C1DF5333700DB71FF /* okdeerMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = okdeerMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047F39351DF5333700DB71FF /* okdeerMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = okdeerMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047F39391DF5333700DB71FF /* okdeerMovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = okdeerMovieTests.m; sourceTree = "<group>"; };
+		047F393B1DF5333700DB71FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047F39401DF5333700DB71FF /* okdeerMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = okdeerMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047F39441DF5333700DB71FF /* okdeerMovieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = okdeerMovieUITests.m; sourceTree = "<group>"; };
+		047F39461DF5333700DB71FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3982C70D8DD0C0ECDB333289 /* Pods-okdeerMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-okdeerMovie.release.xcconfig"; path = "Pods/Target Support Files/Pods-okdeerMovie/Pods-okdeerMovie.release.xcconfig"; sourceTree = "<group>"; };
+		831607036A4671BB95B89A3B /* libPods-okdeerMovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-okdeerMovie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A841B41029999366EE45A5C8 /* Pods-okdeerMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-okdeerMovie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-okdeerMovie/Pods-okdeerMovie.debug.xcconfig"; sourceTree = "<group>"; };
+		D33C47AF1E08C653000CAF12 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D33C47B01E08C653000CAF12 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		D33C47B11E08C653000CAF12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D33C47B31E08C653000CAF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D33C47B51E08C653000CAF12 /* CCCustomActionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCustomActionTableViewCell.h; sourceTree = "<group>"; };
+		D33C47B61E08C653000CAF12 /* CCCustomActionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCustomActionTableViewCell.m; sourceTree = "<group>"; };
+		D33C47B71E08C653000CAF12 /* CCCustomActionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCCustomActionTableViewCell.xib; sourceTree = "<group>"; };
+		D33C47B81E08C653000CAF12 /* CCCustomActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCustomActionView.h; sourceTree = "<group>"; };
+		D33C47B91E08C653000CAF12 /* CCCustomActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCustomActionView.m; sourceTree = "<group>"; };
+		D33C47BA1E08C653000CAF12 /* CCNameAndIdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNameAndIdModel.h; sourceTree = "<group>"; };
+		D33C47BB1E08C653000CAF12 /* CCNameAndIdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNameAndIdModel.m; sourceTree = "<group>"; };
+		D33C47BC1E08C653000CAF12 /* CCNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNoDataView.h; sourceTree = "<group>"; };
+		D33C47BD1E08C653000CAF12 /* CCNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNoDataView.m; sourceTree = "<group>"; };
+		D33C47BE1E08C653000CAF12 /* CCUserInforDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUserInforDatePickerView.h; sourceTree = "<group>"; };
+		D33C47BF1E08C653000CAF12 /* CCUserInforDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUserInforDatePickerView.m; sourceTree = "<group>"; };
+		D33C47C11E08C654000CAF12 /* CCHttpRequest+CCLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCHttpRequest+CCLoginRequest.h"; sourceTree = "<group>"; };
+		D33C47C21E08C654000CAF12 /* CCHttpRequest+CCLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCHttpRequest+CCLoginRequest.m"; sourceTree = "<group>"; };
+		D33C47C31E08C654000CAF12 /* CCMyUserInforModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMyUserInforModel.h; sourceTree = "<group>"; };
+		D33C47C41E08C654000CAF12 /* CCMyUserInforModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMyUserInforModel.m; sourceTree = "<group>"; };
+		D33C47C51E08C654000CAF12 /* OkdeerUrlHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OkdeerUrlHeader.h; sourceTree = "<group>"; };
+		D33C47C61E08C654000CAF12 /* StoryboardInfoHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardInfoHeader.h; sourceTree = "<group>"; };
+		D33C47C71E08C654000CAF12 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33C47C81E08C654000CAF12 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D33C47CC1E08C654000CAF12 /* CCCinemaDetailFilmsListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailFilmsListModel.h; sourceTree = "<group>"; };
+		D33C47CD1E08C654000CAF12 /* CCCinemaDetailFilmsListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailFilmsListModel.m; sourceTree = "<group>"; };
+		D33C47CE1E08C654000CAF12 /* CCCinemaDetailFilmsSceduleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailFilmsSceduleModel.h; sourceTree = "<group>"; };
+		D33C47CF1E08C654000CAF12 /* CCCinemaDetailFilmsSceduleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailFilmsSceduleModel.m; sourceTree = "<group>"; };
+		D33C47D01E08C654000CAF12 /* CCCinemaDetailFilmsScheduleDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailFilmsScheduleDateModel.h; sourceTree = "<group>"; };
+		D33C47D11E08C654000CAF12 /* CCCinemaDetailFilmsScheduleDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailFilmsScheduleDateModel.m; sourceTree = "<group>"; };
+		D33C47D21E08C654000CAF12 /* CCCinemaListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaListModel.h; sourceTree = "<group>"; };
+		D33C47D31E08C654000CAF12 /* CCCinemaListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaListModel.m; sourceTree = "<group>"; };
+		D33C47D51E08C654000CAF12 /* CCCinemaDetailMsgVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailMsgVC.h; sourceTree = "<group>"; };
+		D33C47D61E08C654000CAF12 /* CCCinemaDetailMsgVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailMsgVC.m; sourceTree = "<group>"; };
+		D33C47D71E08C654000CAF12 /* CCCinemaDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailVC.h; sourceTree = "<group>"; };
+		D33C47D81E08C654000CAF12 /* CCCinemaDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailVC.m; sourceTree = "<group>"; };
+		D33C47D91E08C654000CAF12 /* CCCinemaPreferentialTipsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaPreferentialTipsVC.h; sourceTree = "<group>"; };
+		D33C47DA1E08C654000CAF12 /* CCCinemaPreferentialTipsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaPreferentialTipsVC.m; sourceTree = "<group>"; };
+		D33C47DB1E08C654000CAF12 /* CCCinemaPreferentialTipsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCCinemaPreferentialTipsVC.xib; sourceTree = "<group>"; };
+		D33C47DD1E08C654000CAF12 /* CCCinemaFilterTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaFilterTableView.h; sourceTree = "<group>"; };
+		D33C47DE1E08C654000CAF12 /* CCCinemaFilterTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaFilterTableView.m; sourceTree = "<group>"; };
+		D33C47DF1E08C654000CAF12 /* CCCinemaFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaFilterView.h; sourceTree = "<group>"; };
+		D33C47E01E08C654000CAF12 /* CCCinemaFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaFilterView.m; sourceTree = "<group>"; };
+		D33C47E11E08C654000CAF12 /* CCCinemaFilterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCCinemaFilterView.xib; sourceTree = "<group>"; };
+		D33C47E21E08C654000CAF12 /* UIButton+TitleAndImageDispaly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TitleAndImageDispaly.h"; sourceTree = "<group>"; };
+		D33C47E31E08C654000CAF12 /* UIButton+TitleAndImageDispaly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TitleAndImageDispaly.m"; sourceTree = "<group>"; };
+		D33C47E51E08C654000CAF12 /* CCCinemaDetailMsgDashBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailMsgDashBorderView.h; sourceTree = "<group>"; };
+		D33C47E61E08C654000CAF12 /* CCCinemaDetailMsgDashBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailMsgDashBorderView.m; sourceTree = "<group>"; };
+		D33C47E71E08C654000CAF12 /* CCCinemaDetailMsgSeatCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailMsgSeatCollectionCell.h; sourceTree = "<group>"; };
+		D33C47E81E08C654000CAF12 /* CCCinemaDetailMsgSeatCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailMsgSeatCollectionCell.m; sourceTree = "<group>"; };
+		D33C47E91E08C654000CAF12 /* CCCinemaDetailMsgSeatCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCCinemaDetailMsgSeatCollectionCell.xib; sourceTree = "<group>"; };
+		D33C47EB1E08C654000CAF12 /* CCCinemaDetailCinemaMsgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailCinemaMsgView.h; sourceTree = "<group>"; };
+		D33C47EC1E08C654000CAF12 /* CCCinemaDetailCinemaMsgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailCinemaMsgView.m; sourceTree = "<group>"; };
+		D33C47ED1E08C654000CAF12 /* CCCinemaDetailCinemaMsgView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCCinemaDetailCinemaMsgView.xib; sourceTree = "<group>"; };
+		D33C47EE1E08C654000CAF12 /* CCCinemaDetailFilmsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailFilmsCollectionViewCell.h; sourceTree = "<group>"; };
+		D33C47EF1E08C654000CAF12 /* CCCinemaDetailFilmsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailFilmsCollectionViewCell.m; sourceTree = "<group>"; };
+		D33C47F01E08C654000CAF12 /* CCCinemaDetailFilmsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCCinemaDetailFilmsCollectionViewCell.xib; sourceTree = "<group>"; };
+		D33C47F11E08C654000CAF12 /* CCCinemaDetailFilmsDateCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailFilmsDateCollectionViewCell.h; sourceTree = "<group>"; };
+		D33C47F21E08C654000CAF12 /* CCCinemaDetailFilmsDateCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailFilmsDateCollectionViewCell.m; sourceTree = "<group>"; };
+		D33C47F31E08C654000CAF12 /* CCCinemaDetailFilmsDateCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCCinemaDetailFilmsDateCollectionViewCell.xib; sourceTree = "<group>"; };
+		D33C47F41E08C654000CAF12 /* CCCinemaDetailFilmsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailFilmsLayout.h; sourceTree = "<group>"; };
+		D33C47F51E08C654000CAF12 /* CCCinemaDetailFilmsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailFilmsLayout.m; sourceTree = "<group>"; };
+		D33C47F61E08C654000CAF12 /* CCCinemaDetailFilmsNoSceduleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailFilmsNoSceduleView.h; sourceTree = "<group>"; };
+		D33C47F71E08C654000CAF12 /* CCCinemaDetailFilmsNoSceduleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailFilmsNoSceduleView.m; sourceTree = "<group>"; };
+		D33C47F81E08C654000CAF12 /* CCCinemaDetailFilmsNoSceduleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCCinemaDetailFilmsNoSceduleView.xib; sourceTree = "<group>"; };
+		D33C47F91E08C654000CAF12 /* CCCinemaDetailFilmsScheduleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailFilmsScheduleView.h; sourceTree = "<group>"; };
+		D33C47FA1E08C654000CAF12 /* CCCinemaDetailFilmsScheduleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailFilmsScheduleView.m; sourceTree = "<group>"; };
+		D33C47FB1E08C654000CAF12 /* CCCinemaDetailFilmsScheduleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCCinemaDetailFilmsScheduleView.xib; sourceTree = "<group>"; };
+		D33C47FC1E08C654000CAF12 /* CCCinemaDetailFilmsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailFilmsView.h; sourceTree = "<group>"; };
+		D33C47FD1E08C654000CAF12 /* CCCinemaDetailFilmsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailFilmsView.m; sourceTree = "<group>"; };
+		D33C47FE1E08C654000CAF12 /* CCCinemaDetailFilmsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCCinemaDetailFilmsView.xib; sourceTree = "<group>"; };
+		D33C47FF1E08C654000CAF12 /* CCCinemaDetailScaduleFilmsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailScaduleFilmsCell.h; sourceTree = "<group>"; };
+		D33C48001E08C654000CAF12 /* CCCinemaDetailScaduleFilmsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailScaduleFilmsCell.m; sourceTree = "<group>"; };
+		D33C48011E08C654000CAF12 /* CCCinemaDetailScaduleFilmsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCCinemaDetailScaduleFilmsCell.xib; sourceTree = "<group>"; };
+		D33C48031E08C654000CAF12 /* CCFilmDetailInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmDetailInfoModel.h; sourceTree = "<group>"; };
+		D33C48041E08C654000CAF12 /* CCFilmDetailInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmDetailInfoModel.m; sourceTree = "<group>"; };
+		D33C48051E08C654000CAF12 /* CCFilmPlayingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmPlayingListModel.h; sourceTree = "<group>"; };
+		D33C48061E08C654000CAF12 /* CCFilmPlayingListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmPlayingListModel.m; sourceTree = "<group>"; };
+		D33C48091E08C654000CAF12 /* CCFilmOrderDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmOrderDetailModel.h; sourceTree = "<group>"; };
+		D33C480A1E08C654000CAF12 /* CCFilmOrderDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmOrderDetailModel.m; sourceTree = "<group>"; };
+		D33C480B1E08C654000CAF12 /* CCFilmOrderListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmOrderListModel.h; sourceTree = "<group>"; };
+		D33C480C1E08C654000CAF12 /* CCFilmOrderListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmOrderListModel.m; sourceTree = "<group>"; };
+		D33C480D1E08C654000CAF12 /* CCFilmOrderTypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmOrderTypeModel.h; sourceTree = "<group>"; };
+		D33C480E1E08C654000CAF12 /* CCFilmOrderTypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmOrderTypeModel.m; sourceTree = "<group>"; };
+		D33C48101E08C654000CAF12 /* CCFilmOrderDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmOrderDetailView.h; sourceTree = "<group>"; };
+		D33C48111E08C654000CAF12 /* CCFilmOrderDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmOrderDetailView.m; sourceTree = "<group>"; };
+		D33C48121E08C654000CAF12 /* CCFilmOrderDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCFilmOrderDetailView.xib; sourceTree = "<group>"; };
+		D33C48131E08C654000CAF12 /* CCFilmOrderListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmOrderListCell.h; sourceTree = "<group>"; };
+		D33C48141E08C654000CAF12 /* CCFilmOrderListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmOrderListCell.m; sourceTree = "<group>"; };
+		D33C48151E08C654000CAF12 /* CCFilmOrderListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCFilmOrderListCell.xib; sourceTree = "<group>"; };
+		D33C48171E08C654000CAF12 /* CCFilmOrderDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmOrderDetailVC.h; sourceTree = "<group>"; };
+		D33C48181E08C654000CAF12 /* CCFilmOrderDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmOrderDetailVC.m; sourceTree = "<group>"; };
+		D33C48191E08C654000CAF12 /* CCFilmOrderListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmOrderListVC.h; sourceTree = "<group>"; };
+		D33C481A1E08C654000CAF12 /* CCFilmOrderListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmOrderListVC.m; sourceTree = "<group>"; };
+		D33C481E1E08C654000CAF12 /* movie_arrow_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movie_arrow_right@2x.png"; sourceTree = "<group>"; };
+		D33C481F1E08C654000CAF12 /* moviebooking_2d@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_2d@2x.png"; sourceTree = "<group>"; };
+		D33C48201E08C654000CAF12 /* moviebooking_3d@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_3d@2x.png"; sourceTree = "<group>"; };
+		D33C48211E08C654000CAF12 /* moviebooking_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_arrow@2x.png"; sourceTree = "<group>"; };
+		D33C48221E08C654000CAF12 /* moviebooking_arrow_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_arrow_default@2x.png"; sourceTree = "<group>"; };
+		D33C48231E08C654000CAF12 /* moviebooking_arrow_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_arrow_right@2x.png"; sourceTree = "<group>"; };
+		D33C48241E08C654000CAF12 /* moviebooking_arrow_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_arrow_select@2x.png"; sourceTree = "<group>"; };
+		D33C48251E08C654000CAF12 /* moviebooking_bus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_bus@2x.png"; sourceTree = "<group>"; };
+		D33C48261E08C654000CAF12 /* moviebooking_busWay_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_busWay_dark@2x.png"; sourceTree = "<group>"; };
+		D33C48271E08C654000CAF12 /* moviebooking_busWay_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_busWay_light@2x.png"; sourceTree = "<group>"; };
+		D33C48281E08C654000CAF12 /* moviebooking_call@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_call@2x.png"; sourceTree = "<group>"; };
+		D33C48291E08C654000CAF12 /* moviebooking_changeDirection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_changeDirection@2x.png"; sourceTree = "<group>"; };
+		D33C482A1E08C654000CAF12 /* moviebooking_ciname_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_ciname_default@2x.png"; sourceTree = "<group>"; };
+		D33C482B1E08C654000CAF12 /* moviebooking_cinema_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_cinema_default@2x.png"; sourceTree = "<group>"; };
+		D33C482C1E08C654000CAF12 /* moviebooking_cinema_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_cinema_selected@2x.png"; sourceTree = "<group>"; };
+		D33C482D1E08C654000CAF12 /* moviebooking_coupon_newer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_coupon_newer@2x.png"; sourceTree = "<group>"; };
+		D33C482E1E08C654000CAF12 /* moviebooking_coupon_seat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_coupon_seat@2x.png"; sourceTree = "<group>"; };
+		D33C482F1E08C654000CAF12 /* moviebooking_driving@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_driving@2x.png"; sourceTree = "<group>"; };
+		D33C48301E08C654000CAF12 /* moviebooking_drivingWay_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_drivingWay_dark@2x.png"; sourceTree = "<group>"; };
+		D33C48311E08C654000CAF12 /* moviebooking_drivingWay_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_drivingWay_light@2x.png"; sourceTree = "<group>"; };
+		D33C48321E08C654000CAF12 /* moviebooking_film_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_film_default@2x.png"; sourceTree = "<group>"; };
+		D33C48331E08C654000CAF12 /* moviebooking_film_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_film_selected@2x.png"; sourceTree = "<group>"; };
+		D33C48341E08C654000CAF12 /* moviebooking_imax3d@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_imax3d@2x.png"; sourceTree = "<group>"; };
+		D33C48351E08C654000CAF12 /* moviebooking_level@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_level@2x.png"; sourceTree = "<group>"; };
+		D33C48361E08C654000CAF12 /* moviebooking_lover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_lover@2x.png"; sourceTree = "<group>"; };
+		D33C48371E08C654000CAF12 /* moviebooking_lover_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_lover_left@2x.png"; sourceTree = "<group>"; };
+		D33C48381E08C654000CAF12 /* moviebooking_lover_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_lover_right@2x.png"; sourceTree = "<group>"; };
+		D33C48391E08C654000CAF12 /* moviebooking_maintain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_maintain@2x.png"; sourceTree = "<group>"; };
+		D33C483A1E08C654000CAF12 /* moviebooking_mapPin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_mapPin@2x.png"; sourceTree = "<group>"; };
+		D33C483B1E08C654000CAF12 /* moviebooking_nodata_film@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_nodata_film@2x.png"; sourceTree = "<group>"; };
+		D33C483C1E08C654000CAF12 /* moviebooking_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_phone@2x.png"; sourceTree = "<group>"; };
+		D33C483D1E08C654000CAF12 /* moviebooking_screencenter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_screencenter@2x.png"; sourceTree = "<group>"; };
+		D33C483E1E08C654000CAF12 /* moviebooking_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_search@2x.png"; sourceTree = "<group>"; };
+		D33C483F1E08C654000CAF12 /* moviebooking_seat_lover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_seat_lover@2x.png"; sourceTree = "<group>"; };
+		D33C48401E08C654000CAF12 /* moviebooking_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_selected@2x.png"; sourceTree = "<group>"; };
+		D33C48411E08C654000CAF12 /* moviebooking_selled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_selled@2x.png"; sourceTree = "<group>"; };
+		D33C48421E08C654000CAF12 /* moviebooking_walking@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_walking@2x.png"; sourceTree = "<group>"; };
+		D33C48431E08C654000CAF12 /* moviebooking_walkingWay_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_walkingWay_dark@2x.png"; sourceTree = "<group>"; };
+		D33C48441E08C654000CAF12 /* moviebooking_walkingWay_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_walkingWay_light@2x.png"; sourceTree = "<group>"; };
+		D33C48461E08C654000CAF12 /* movie_arrow_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movie_arrow_right@3x.png"; sourceTree = "<group>"; };
+		D33C48471E08C654000CAF12 /* moviebooking_2d@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_2d@3x.png"; sourceTree = "<group>"; };
+		D33C48481E08C654000CAF12 /* moviebooking_3d@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_3d@3x.png"; sourceTree = "<group>"; };
+		D33C48491E08C654000CAF12 /* moviebooking_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_arrow@3x.png"; sourceTree = "<group>"; };
+		D33C484A1E08C654000CAF12 /* moviebooking_arrow_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_arrow_default@3x.png"; sourceTree = "<group>"; };
+		D33C484B1E08C654000CAF12 /* moviebooking_arrow_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_arrow_right@3x.png"; sourceTree = "<group>"; };
+		D33C484C1E08C654000CAF12 /* moviebooking_arrow_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_arrow_select@3x.png"; sourceTree = "<group>"; };
+		D33C484D1E08C654000CAF12 /* moviebooking_bus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_bus@3x.png"; sourceTree = "<group>"; };
+		D33C484E1E08C654000CAF12 /* moviebooking_busWay_dark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_busWay_dark@3x.png"; sourceTree = "<group>"; };
+		D33C484F1E08C654000CAF12 /* moviebooking_busWay_light@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_busWay_light@3x.png"; sourceTree = "<group>"; };
+		D33C48501E08C654000CAF12 /* moviebooking_call@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_call@3x.png"; sourceTree = "<group>"; };
+		D33C48511E08C654000CAF12 /* moviebooking_changeDirection@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_changeDirection@3x.png"; sourceTree = "<group>"; };
+		D33C48521E08C654000CAF12 /* moviebooking_ciname_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_ciname_default@3x.png"; sourceTree = "<group>"; };
+		D33C48531E08C654000CAF12 /* moviebooking_cinema_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_cinema_default@3x.png"; sourceTree = "<group>"; };
+		D33C48541E08C654000CAF12 /* moviebooking_cinema_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_cinema_selected@3x.png"; sourceTree = "<group>"; };
+		D33C48551E08C654000CAF12 /* moviebooking_coupon_newer@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_coupon_newer@3x.png"; sourceTree = "<group>"; };
+		D33C48561E08C654000CAF12 /* moviebooking_coupon_seat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_coupon_seat@3x.png"; sourceTree = "<group>"; };
+		D33C48571E08C654000CAF12 /* moviebooking_driving@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_driving@3x.png"; sourceTree = "<group>"; };
+		D33C48581E08C654000CAF12 /* moviebooking_drivingWay_dark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_drivingWay_dark@3x.png"; sourceTree = "<group>"; };
+		D33C48591E08C654000CAF12 /* moviebooking_drivingWay_light@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_drivingWay_light@3x.png"; sourceTree = "<group>"; };
+		D33C485A1E08C654000CAF12 /* moviebooking_film_default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_film_default@3x.png"; sourceTree = "<group>"; };
+		D33C485B1E08C654000CAF12 /* moviebooking_film_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_film_selected@3x.png"; sourceTree = "<group>"; };
+		D33C485C1E08C654000CAF12 /* moviebooking_imax3d@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_imax3d@3x.png"; sourceTree = "<group>"; };
+		D33C485D1E08C654000CAF12 /* moviebooking_level@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_level@3x.png"; sourceTree = "<group>"; };
+		D33C485E1E08C654000CAF12 /* moviebooking_lover@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_lover@3x.png"; sourceTree = "<group>"; };
+		D33C485F1E08C654000CAF12 /* moviebooking_lover_left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_lover_left@3x.png"; sourceTree = "<group>"; };
+		D33C48601E08C654000CAF12 /* moviebooking_lover_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_lover_right@3x.png"; sourceTree = "<group>"; };
+		D33C48611E08C654000CAF12 /* moviebooking_maintain@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_maintain@3x.png"; sourceTree = "<group>"; };
+		D33C48621E08C654000CAF12 /* moviebooking_mapPin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_mapPin@3x.png"; sourceTree = "<group>"; };
+		D33C48631E08C654000CAF12 /* moviebooking_nodata_film@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_nodata_film@3x.png"; sourceTree = "<group>"; };
+		D33C48641E08C654000CAF12 /* moviebooking_phone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_phone@3x.png"; sourceTree = "<group>"; };
+		D33C48651E08C654000CAF12 /* moviebooking_search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_search@3x.png"; sourceTree = "<group>"; };
+		D33C48661E08C654000CAF12 /* moviebooking_seat_lover@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_seat_lover@3x.png"; sourceTree = "<group>"; };
+		D33C48671E08C654000CAF12 /* moviebooking_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_selected@3x.png"; sourceTree = "<group>"; };
+		D33C48681E08C654000CAF12 /* moviebooking_selled@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_selled@3x.png"; sourceTree = "<group>"; };
+		D33C48691E08C654000CAF12 /* moviebooking_walking@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_walking@3x.png"; sourceTree = "<group>"; };
+		D33C486A1E08C654000CAF12 /* moviebooking_walkingWay_dark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_walkingWay_dark@3x.png"; sourceTree = "<group>"; };
+		D33C486B1E08C654000CAF12 /* moviebooking_walkingWay_light@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviebooking_walkingWay_light@3x.png"; sourceTree = "<group>"; };
+		D33C486D1E08C654000CAF12 /* CCHttpRequest+Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCHttpRequest+Movie.h"; sourceTree = "<group>"; };
+		D33C486E1E08C654000CAF12 /* CCHttpRequest+Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCHttpRequest+Movie.m"; sourceTree = "<group>"; };
+		D33C48701E08C654000CAF12 /* CCCinemaAddPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaAddPointView.h; sourceTree = "<group>"; };
+		D33C48711E08C654000CAF12 /* CCCinemaAddPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaAddPointView.m; sourceTree = "<group>"; };
+		D33C48721E08C654000CAF12 /* CCCinemaLinesTbv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaLinesTbv.h; sourceTree = "<group>"; };
+		D33C48731E08C654000CAF12 /* CCCinemaLinesTbv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaLinesTbv.m; sourceTree = "<group>"; };
+		D33C48741E08C654000CAF12 /* CCFilmOnWillPlayingTbvCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmOnWillPlayingTbvCell.h; sourceTree = "<group>"; };
+		D33C48751E08C654000CAF12 /* CCFilmOnWillPlayingTbvCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmOnWillPlayingTbvCell.m; sourceTree = "<group>"; };
+		D33C48761E08C654000CAF12 /* CCFilmOnWillPlayingTbvCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCFilmOnWillPlayingTbvCell.xib; sourceTree = "<group>"; };
+		D33C48771E08C654000CAF12 /* CCFilmSeatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmSeatView.h; sourceTree = "<group>"; };
+		D33C48781E08C654000CAF12 /* CCFilmSeatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmSeatView.m; sourceTree = "<group>"; };
+		D33C48791E08C654000CAF12 /* CCFilmSelectedSeatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmSelectedSeatView.h; sourceTree = "<group>"; };
+		D33C487A1E08C654000CAF12 /* CCFilmSelectedSeatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmSelectedSeatView.m; sourceTree = "<group>"; };
+		D33C487B1E08C654000CAF12 /* CCFilmShowingTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmShowingTableCell.h; sourceTree = "<group>"; };
+		D33C487C1E08C654000CAF12 /* CCFilmShowingTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmShowingTableCell.m; sourceTree = "<group>"; };
+		D33C487D1E08C654000CAF12 /* CCFilmShowingTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCFilmShowingTableCell.xib; sourceTree = "<group>"; };
+		D33C487E1E08C654000CAF12 /* CCMovieTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMovieTableCell.h; sourceTree = "<group>"; };
+		D33C487F1E08C654000CAF12 /* CCMovieTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMovieTableCell.m; sourceTree = "<group>"; };
+		D33C48801E08C654000CAF12 /* CCMovieTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCMovieTableCell.xib; sourceTree = "<group>"; };
+		D33C48811E08C654000CAF12 /* CCNaviLineTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNaviLineTableCell.h; sourceTree = "<group>"; };
+		D33C48821E08C654000CAF12 /* CCNaviLineTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNaviLineTableCell.m; sourceTree = "<group>"; };
+		D33C48831E08C654000CAF12 /* CCNaviLineTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCNaviLineTableCell.xib; sourceTree = "<group>"; };
+		D33C48841E08C654000CAF12 /* FilmCinemaDateCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmCinemaDateCollectionCell.h; sourceTree = "<group>"; };
+		D33C48851E08C654000CAF12 /* FilmCinemaDateCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmCinemaDateCollectionCell.m; sourceTree = "<group>"; };
+		D33C48861E08C654000CAF12 /* FilmOnPlayingTbv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmOnPlayingTbv.h; sourceTree = "<group>"; };
+		D33C48871E08C654000CAF12 /* FilmOnPlayingTbv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmOnPlayingTbv.m; sourceTree = "<group>"; };
+		D33C48881E08C654000CAF12 /* FilmWillPlayingTbv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmWillPlayingTbv.h; sourceTree = "<group>"; };
+		D33C48891E08C654000CAF12 /* FilmWillPlayingTbv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmWillPlayingTbv.m; sourceTree = "<group>"; };
+		D33C488A1E08C654000CAF12 /* MovieBooking.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MovieBooking.storyboard; sourceTree = "<group>"; };
+		D33C488D1E08C654000CAF12 /* choosable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choosable@2x.png"; sourceTree = "<group>"; };
+		D33C488E1E08C654000CAF12 /* choosable@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choosable@3x.png"; sourceTree = "<group>"; };
+		D33C488F1E08C654000CAF12 /* screenBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenBg@2x.png"; sourceTree = "<group>"; };
+		D33C48901E08C654000CAF12 /* screenBg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenBg@3x.png"; sourceTree = "<group>"; };
+		D33C48911E08C654000CAF12 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
+		D33C48921E08C654000CAF12 /* selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@3x.png"; sourceTree = "<group>"; };
+		D33C48931E08C654000CAF12 /* sold@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sold@2x.png"; sourceTree = "<group>"; };
+		D33C48941E08C654000CAF12 /* sold@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sold@3x.png"; sourceTree = "<group>"; };
+		D33C48961E08C654000CAF12 /* ZFSeatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSeatModel.h; sourceTree = "<group>"; };
+		D33C48971E08C654000CAF12 /* ZFSeatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSeatModel.m; sourceTree = "<group>"; };
+		D33C48981E08C654000CAF12 /* ZFSeatsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSeatsModel.h; sourceTree = "<group>"; };
+		D33C48991E08C654000CAF12 /* ZFSeatsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSeatsModel.m; sourceTree = "<group>"; };
+		D33C489A1E08C654000CAF12 /* seats 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "seats 2.plist"; sourceTree = "<group>"; };
+		D33C489C1E08C654000CAF12 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		D33C489D1E08C654000CAF12 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		D33C489E1E08C654000CAF12 /* ZFAppLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFAppLogoView.h; sourceTree = "<group>"; };
+		D33C489F1E08C654000CAF12 /* ZFAppLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFAppLogoView.m; sourceTree = "<group>"; };
+		D33C48A01E08C654000CAF12 /* ZFCenterLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCenterLineView.h; sourceTree = "<group>"; };
+		D33C48A11E08C654000CAF12 /* ZFCenterLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCenterLineView.m; sourceTree = "<group>"; };
+		D33C48A21E08C654000CAF12 /* ZFHallLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFHallLogoView.h; sourceTree = "<group>"; };
+		D33C48A31E08C654000CAF12 /* ZFHallLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFHallLogoView.m; sourceTree = "<group>"; };
+		D33C48A41E08C654000CAF12 /* ZFIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFIndicatorView.h; sourceTree = "<group>"; };
+		D33C48A51E08C654000CAF12 /* ZFIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFIndicatorView.m; sourceTree = "<group>"; };
+		D33C48A61E08C654000CAF12 /* ZFRowIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFRowIndexView.h; sourceTree = "<group>"; };
+		D33C48A71E08C654000CAF12 /* ZFRowIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFRowIndexView.m; sourceTree = "<group>"; };
+		D33C48A81E08C654000CAF12 /* ZFSeatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSeatButton.h; sourceTree = "<group>"; };
+		D33C48A91E08C654000CAF12 /* ZFSeatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSeatButton.m; sourceTree = "<group>"; };
+		D33C48AA1E08C654000CAF12 /* ZFSeatSelectionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSeatSelectionConfig.h; sourceTree = "<group>"; };
+		D33C48AB1E08C654000CAF12 /* ZFSeatSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSeatSelectionView.h; sourceTree = "<group>"; };
+		D33C48AC1E08C654000CAF12 /* ZFSeatSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSeatSelectionView.m; sourceTree = "<group>"; };
+		D33C48AD1E08C654000CAF12 /* ZFSeatsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSeatsView.h; sourceTree = "<group>"; };
+		D33C48AE1E08C654000CAF12 /* ZFSeatsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSeatsView.m; sourceTree = "<group>"; };
+		D33C48B01E08C654000CAF12 /* CCConfirmOrderPrivilegeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCConfirmOrderPrivilegeVC.h; sourceTree = "<group>"; };
+		D33C48B11E08C654000CAF12 /* CCConfirmOrderPrivilegeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCConfirmOrderPrivilegeVC.m; sourceTree = "<group>"; };
+		D33C48B21E08C654000CAF12 /* CCFilmCinemaMapLineDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmCinemaMapLineDetailVC.h; sourceTree = "<group>"; };
+		D33C48B31E08C654000CAF12 /* CCFilmCinemaMapLineDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmCinemaMapLineDetailVC.m; sourceTree = "<group>"; };
+		D33C48B41E08C654000CAF12 /* CCFilmCinemaMapLinesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmCinemaMapLinesVC.h; sourceTree = "<group>"; };
+		D33C48B51E08C654000CAF12 /* CCFilmCinemaMapLinesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmCinemaMapLinesVC.m; sourceTree = "<group>"; };
+		D33C48B61E08C654000CAF12 /* CCFilmCinemaMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmCinemaMapVC.h; sourceTree = "<group>"; };
+		D33C48B71E08C654000CAF12 /* CCFilmCinemaMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmCinemaMapVC.m; sourceTree = "<group>"; };
+		D33C48B81E08C654000CAF12 /* CCFilmConfirmOrderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmConfirmOrderVC.h; sourceTree = "<group>"; };
+		D33C48B91E08C654000CAF12 /* CCFilmConfirmOrderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmConfirmOrderVC.m; sourceTree = "<group>"; };
+		D33C48BA1E08C654000CAF12 /* CCFilmDetailCinemaSubVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmDetailCinemaSubVC.h; sourceTree = "<group>"; };
+		D33C48BB1E08C654000CAF12 /* CCFilmDetailCinemaSubVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmDetailCinemaSubVC.m; sourceTree = "<group>"; };
+		D33C48BC1E08C654000CAF12 /* CCFilmDetailCinemaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmDetailCinemaVC.h; sourceTree = "<group>"; };
+		D33C48BD1E08C654000CAF12 /* CCFilmDetailCinemaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmDetailCinemaVC.m; sourceTree = "<group>"; };
+		D33C48BE1E08C654000CAF12 /* CCFilmDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmDetailsViewController.h; sourceTree = "<group>"; };
+		D33C48BF1E08C654000CAF12 /* CCFilmDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmDetailsViewController.m; sourceTree = "<group>"; };
+		D33C48C01E08C654000CAF12 /* CCFilmSeatsDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmSeatsDetailVC.h; sourceTree = "<group>"; };
+		D33C48C11E08C654000CAF12 /* CCFilmSeatsDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmSeatsDetailVC.m; sourceTree = "<group>"; };
+		D33C48C21E08C654000CAF12 /* CCFilmsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFilmsViewController.h; sourceTree = "<group>"; };
+		D33C48C31E08C654000CAF12 /* CCFilmsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFilmsViewController.m; sourceTree = "<group>"; };
+		D33C48C41E08C654000CAF12 /* CCMovieMainTabbarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMovieMainTabbarVC.h; sourceTree = "<group>"; };
+		D33C48C51E08C654000CAF12 /* CCMovieMainTabbarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMovieMainTabbarVC.m; sourceTree = "<group>"; };
+		D33C48C61E08C654000CAF12 /* CCMovieOrderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMovieOrderDetailViewController.h; sourceTree = "<group>"; };
+		D33C48C71E08C654000CAF12 /* CCMovieOrderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMovieOrderDetailViewController.m; sourceTree = "<group>"; };
+		D33C48C81E08C654000CAF12 /* CCMovieOrderDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCMovieOrderDetailViewController.xib; sourceTree = "<group>"; };
+		D33C48C91E08C654000CAF12 /* CCMovieOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMovieOrderViewController.h; sourceTree = "<group>"; };
+		D33C48CA1E08C654000CAF12 /* CCMovieOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMovieOrderViewController.m; sourceTree = "<group>"; };
+		D33C48CB1E08C654000CAF12 /* CCMovieSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMovieSearchViewController.h; sourceTree = "<group>"; };
+		D33C48CC1E08C654000CAF12 /* CCMovieSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMovieSearchViewController.m; sourceTree = "<group>"; };
+		D33C48CD1E08C654000CAF12 /* CCMoviesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMoviesViewController.h; sourceTree = "<group>"; };
+		D33C48CE1E08C654000CAF12 /* CCMoviesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMoviesViewController.m; sourceTree = "<group>"; };
+		D33C48CF1E08C654000CAF12 /* OkdeerMovie.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OkdeerMovie.pch; sourceTree = "<group>"; };
+		D33C48D01E08C654000CAF12 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D33C48D21E08C654000CAF12 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D33C498D1E09003C000CAF12 /* UIImage+vImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+vImage.h"; sourceTree = "<group>"; };
+		D33C498E1E09003C000CAF12 /* UIImage+vImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+vImage.m"; sourceTree = "<group>"; };
+		D33C49901E09065D000CAF12 /* CCCinemaDetailFilmModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCinemaDetailFilmModel.h; sourceTree = "<group>"; };
+		D33C49911E09065D000CAF12 /* CCCinemaDetailFilmModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCinemaDetailFilmModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047F39191DF5333700DB71FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043327FE1DFEA39100322FD8 /* Photos.framework in Frameworks */,
+				043327FB1DFEA03D00322FD8 /* libc++abi.tbd in Frameworks */,
+				CF21E5FE1A810B63AFB6E20D /* libPods-okdeerMovie.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F39321DF5333700DB71FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F393D1DF5333700DB71FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047F39131DF5333700DB71FF = {
+			isa = PBXGroup;
+			children = (
+				D33C47AE1E08C653000CAF12 /* okdeerMovie */,
+				047F39381DF5333700DB71FF /* okdeerMovieTests */,
+				047F39431DF5333700DB71FF /* okdeerMovieUITests */,
+				047F391D1DF5333700DB71FF /* Products */,
+				B3E9A4F17A297464C8FDC013 /* Pods */,
+				BD622DB1F24CADBB2DA9FD8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		047F391D1DF5333700DB71FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047F391C1DF5333700DB71FF /* okdeerMovie.app */,
+				047F39351DF5333700DB71FF /* okdeerMovieTests.xctest */,
+				047F39401DF5333700DB71FF /* okdeerMovieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047F39381DF5333700DB71FF /* okdeerMovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				047F39391DF5333700DB71FF /* okdeerMovieTests.m */,
+				047F393B1DF5333700DB71FF /* Info.plist */,
+			);
+			path = okdeerMovieTests;
+			sourceTree = "<group>";
+		};
+		047F39431DF5333700DB71FF /* okdeerMovieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047F39441DF5333700DB71FF /* okdeerMovieUITests.m */,
+				047F39461DF5333700DB71FF /* Info.plist */,
+			);
+			path = okdeerMovieUITests;
+			sourceTree = "<group>";
+		};
+		B3E9A4F17A297464C8FDC013 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A841B41029999366EE45A5C8 /* Pods-okdeerMovie.debug.xcconfig */,
+				3982C70D8DD0C0ECDB333289 /* Pods-okdeerMovie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD622DB1F24CADBB2DA9FD8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				043327FC1DFEA35F00322FD8 /* PhotosUI.framework */,
+				043327FA1DFEA03D00322FD8 /* libc++abi.tbd */,
+				046BC5AB1DFE994200718A5A /* Photos.framework */,
+				046BC5A91DFE96A400718A5A /* Foundation.framework */,
+				831607036A4671BB95B89A3B /* libPods-okdeerMovie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D33C47AE1E08C653000CAF12 /* okdeerMovie */ = {
+			isa = PBXGroup;
+			children = (
+				D33C47AF1E08C653000CAF12 /* AppDelegate.h */,
+				D33C47B01E08C653000CAF12 /* AppDelegate.mm */,
+				D33C47B11E08C653000CAF12 /* Assets.xcassets */,
+				D33C47B21E08C653000CAF12 /* LaunchScreen.storyboard */,
+				D33C47B41E08C653000CAF12 /* Common */,
+				D33C47C71E08C654000CAF12 /* Info.plist */,
+				D33C47C81E08C654000CAF12 /* main.m */,
+				D33C47C91E08C654000CAF12 /* movieBooking */,
+				D33C48CF1E08C654000CAF12 /* OkdeerMovie.pch */,
+				D33C48D01E08C654000CAF12 /* ViewController.h */,
+				D33C48D21E08C654000CAF12 /* ViewController.m */,
+			);
+			path = okdeerMovie;
+			sourceTree = "<group>";
+		};
+		D33C47B41E08C653000CAF12 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D33C47B51E08C653000CAF12 /* CCCustomActionTableViewCell.h */,
+				D33C47B61E08C653000CAF12 /* CCCustomActionTableViewCell.m */,
+				D33C47B71E08C653000CAF12 /* CCCustomActionTableViewCell.xib */,
+				D33C47B81E08C653000CAF12 /* CCCustomActionView.h */,
+				D33C47B91E08C653000CAF12 /* CCCustomActionView.m */,
+				D33C47BA1E08C653000CAF12 /* CCNameAndIdModel.h */,
+				D33C47BB1E08C653000CAF12 /* CCNameAndIdModel.m */,
+				D33C47BC1E08C653000CAF12 /* CCNoDataView.h */,
+				D33C47BD1E08C653000CAF12 /* CCNoDataView.m */,
+				D33C47BE1E08C653000CAF12 /* CCUserInforDatePickerView.h */,
+				D33C47BF1E08C653000CAF12 /* CCUserInforDatePickerView.m */,
+				D33C47C01E08C653000CAF12 /* login */,
+				D33C47C51E08C654000CAF12 /* OkdeerUrlHeader.h */,
+				D33C47C61E08C654000CAF12 /* StoryboardInfoHeader.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D33C47C01E08C653000CAF12 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				D33C47C11E08C654000CAF12 /* CCHttpRequest+CCLoginRequest.h */,
+				D33C47C21E08C654000CAF12 /* CCHttpRequest+CCLoginRequest.m */,
+				D33C47C31E08C654000CAF12 /* CCMyUserInforModel.h */,
+				D33C47C41E08C654000CAF12 /* CCMyUserInforModel.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		D33C47C91E08C654000CAF12 /* movieBooking */ = {
+			isa = PBXGroup;
+			children = (
+				D33C47CA1E08C654000CAF12 /* Cinema */,
+				D33C48021E08C654000CAF12 /* Model */,
+				D33C48071E08C654000CAF12 /* Order */,
+				D33C481B1E08C654000CAF12 /* Other */,
+				D33C486C1E08C654000CAF12 /* Request */,
+				D33C486F1E08C654000CAF12 /* View */,
+				D33C48AF1E08C654000CAF12 /* ViewController */,
+				D33C498D1E09003C000CAF12 /* UIImage+vImage.h */,
+				D33C498E1E09003C000CAF12 /* UIImage+vImage.m */,
+			);
+			path = movieBooking;
+			sourceTree = "<group>";
+		};
+		D33C47CA1E08C654000CAF12 /* Cinema */ = {
+			isa = PBXGroup;
+			children = (
+				D33C47CB1E08C654000CAF12 /* Models */,
+				D33C47D41E08C654000CAF12 /* ViewControllers */,
+				D33C47DC1E08C654000CAF12 /* Views */,
+			);
+			path = Cinema;
+			sourceTree = "<group>";
+		};
+		D33C47CB1E08C654000CAF12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D33C47CC1E08C654000CAF12 /* CCCinemaDetailFilmsListModel.h */,
+				D33C47CD1E08C654000CAF12 /* CCCinemaDetailFilmsListModel.m */,
+				D33C47CE1E08C654000CAF12 /* CCCinemaDetailFilmsSceduleModel.h */,
+				D33C47CF1E08C654000CAF12 /* CCCinemaDetailFilmsSceduleModel.m */,
+				D33C47D01E08C654000CAF12 /* CCCinemaDetailFilmsScheduleDateModel.h */,
+				D33C47D11E08C654000CAF12 /* CCCinemaDetailFilmsScheduleDateModel.m */,
+				D33C47D21E08C654000CAF12 /* CCCinemaListModel.h */,
+				D33C47D31E08C654000CAF12 /* CCCinemaListModel.m */,
+				D33C49901E09065D000CAF12 /* CCCinemaDetailFilmModel.h */,
+				D33C49911E09065D000CAF12 /* CCCinemaDetailFilmModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D33C47D41E08C654000CAF12 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D33C47D51E08C654000CAF12 /* CCCinemaDetailMsgVC.h */,
+				D33C47D61E08C654000CAF12 /* CCCinemaDetailMsgVC.m */,
+				D33C47D71E08C654000CAF12 /* CCCinemaDetailVC.h */,
+				D33C47D81E08C654000CAF12 /* CCCinemaDetailVC.m */,
+				D33C47D91E08C654000CAF12 /* CCCinemaPreferentialTipsVC.h */,
+				D33C47DA1E08C654000CAF12 /* CCCinemaPreferentialTipsVC.m */,
+				D33C47DB1E08C654000CAF12 /* CCCinemaPreferentialTipsVC.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D33C47DC1E08C654000CAF12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D33C47DD1E08C654000CAF12 /* CCCinemaFilterTableView.h */,
+				D33C47DE1E08C654000CAF12 /* CCCinemaFilterTableView.m */,
+				D33C47DF1E08C654000CAF12 /* CCCinemaFilterView.h */,
+				D33C47E01E08C654000CAF12 /* CCCinemaFilterView.m */,
+				D33C47E11E08C654000CAF12 /* CCCinemaFilterView.xib */,
+				D33C47E21E08C654000CAF12 /* UIButton+TitleAndImageDispaly.h */,
+				D33C47E31E08C654000CAF12 /* UIButton+TitleAndImageDispaly.m */,
+				D33C47E41E08C654000CAF12 /* viewsOfCinemaDetailMsgVC */,
+				D33C47EA1E08C654000CAF12 /* viewsOfCinemaDetailVC */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D33C47E41E08C654000CAF12 /* viewsOfCinemaDetailMsgVC */ = {
+			isa = PBXGroup;
+			children = (
+				D33C47E51E08C654000CAF12 /* CCCinemaDetailMsgDashBorderView.h */,
+				D33C47E61E08C654000CAF12 /* CCCinemaDetailMsgDashBorderView.m */,
+				D33C47E71E08C654000CAF12 /* CCCinemaDetailMsgSeatCollectionCell.h */,
+				D33C47E81E08C654000CAF12 /* CCCinemaDetailMsgSeatCollectionCell.m */,
+				D33C47E91E08C654000CAF12 /* CCCinemaDetailMsgSeatCollectionCell.xib */,
+			);
+			path = viewsOfCinemaDetailMsgVC;
+			sourceTree = "<group>";
+		};
+		D33C47EA1E08C654000CAF12 /* viewsOfCinemaDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				D33C47EB1E08C654000CAF12 /* CCCinemaDetailCinemaMsgView.h */,
+				D33C47EC1E08C654000CAF12 /* CCCinemaDetailCinemaMsgView.m */,
+				D33C47ED1E08C654000CAF12 /* CCCinemaDetailCinemaMsgView.xib */,
+				D33C47EE1E08C654000CAF12 /* CCCinemaDetailFilmsCollectionViewCell.h */,
+				D33C47EF1E08C654000CAF12 /* CCCinemaDetailFilmsCollectionViewCell.m */,
+				D33C47F01E08C654000CAF12 /* CCCinemaDetailFilmsCollectionViewCell.xib */,
+				D33C47F11E08C654000CAF12 /* CCCinemaDetailFilmsDateCollectionViewCell.h */,
+				D33C47F21E08C654000CAF12 /* CCCinemaDetailFilmsDateCollectionViewCell.m */,
+				D33C47F31E08C654000CAF12 /* CCCinemaDetailFilmsDateCollectionViewCell.xib */,
+				D33C47F41E08C654000CAF12 /* CCCinemaDetailFilmsLayout.h */,
+				D33C47F51E08C654000CAF12 /* CCCinemaDetailFilmsLayout.m */,
+				D33C47F61E08C654000CAF12 /* CCCinemaDetailFilmsNoSceduleView.h */,
+				D33C47F71E08C654000CAF12 /* CCCinemaDetailFilmsNoSceduleView.m */,
+				D33C47F81E08C654000CAF12 /* CCCinemaDetailFilmsNoSceduleView.xib */,
+				D33C47F91E08C654000CAF12 /* CCCinemaDetailFilmsScheduleView.h */,
+				D33C47FA1E08C654000CAF12 /* CCCinemaDetailFilmsScheduleView.m */,
+				D33C47FB1E08C654000CAF12 /* CCCinemaDetailFilmsScheduleView.xib */,
+				D33C47FC1E08C654000CAF12 /* CCCinemaDetailFilmsView.h */,
+				D33C47FD1E08C654000CAF12 /* CCCinemaDetailFilmsView.m */,
+				D33C47FE1E08C654000CAF12 /* CCCinemaDetailFilmsView.xib */,
+				D33C47FF1E08C654000CAF12 /* CCCinemaDetailScaduleFilmsCell.h */,
+				D33C48001E08C654000CAF12 /* CCCinemaDetailScaduleFilmsCell.m */,
+				D33C48011E08C654000CAF12 /* CCCinemaDetailScaduleFilmsCell.xib */,
+			);
+			path = viewsOfCinemaDetailVC;
+			sourceTree = "<group>";
+		};
+		D33C48021E08C654000CAF12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D33C48031E08C654000CAF12 /* CCFilmDetailInfoModel.h */,
+				D33C48041E08C654000CAF12 /* CCFilmDetailInfoModel.m */,
+				D33C48051E08C654000CAF12 /* CCFilmPlayingListModel.h */,
+				D33C48061E08C654000CAF12 /* CCFilmPlayingListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D33C48071E08C654000CAF12 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				D33C48081E08C654000CAF12 /* Model */,
+				D33C480F1E08C654000CAF12 /* View */,
+				D33C48161E08C654000CAF12 /* ViewController */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		D33C48081E08C654000CAF12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D33C48091E08C654000CAF12 /* CCFilmOrderDetailModel.h */,
+				D33C480A1E08C654000CAF12 /* CCFilmOrderDetailModel.m */,
+				D33C480B1E08C654000CAF12 /* CCFilmOrderListModel.h */,
+				D33C480C1E08C654000CAF12 /* CCFilmOrderListModel.m */,
+				D33C480D1E08C654000CAF12 /* CCFilmOrderTypeModel.h */,
+				D33C480E1E08C654000CAF12 /* CCFilmOrderTypeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D33C480F1E08C654000CAF12 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D33C48101E08C654000CAF12 /* CCFilmOrderDetailView.h */,
+				D33C48111E08C654000CAF12 /* CCFilmOrderDetailView.m */,
+				D33C48121E08C654000CAF12 /* CCFilmOrderDetailView.xib */,
+				D33C48131E08C654000CAF12 /* CCFilmOrderListCell.h */,
+				D33C48141E08C654000CAF12 /* CCFilmOrderListCell.m */,
+				D33C48151E08C654000CAF12 /* CCFilmOrderListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D33C48161E08C654000CAF12 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D33C48171E08C654000CAF12 /* CCFilmOrderDetailVC.h */,
+				D33C48181E08C654000CAF12 /* CCFilmOrderDetailVC.m */,
+				D33C48191E08C654000CAF12 /* CCFilmOrderListVC.h */,
+				D33C481A1E08C654000CAF12 /* CCFilmOrderListVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D33C481B1E08C654000CAF12 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D33C481C1E08C654000CAF12 /* Media */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D33C481C1E08C654000CAF12 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				D33C481D1E08C654000CAF12 /* 2x */,
+				D33C48451E08C654000CAF12 /* 3x */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		D33C481D1E08C654000CAF12 /* 2x */ = {
+			isa = PBXGroup;
+			children = (
+				D33C481E1E08C654000CAF12 /* movie_arrow_right@2x.png */,
+				D33C481F1E08C654000CAF12 /* moviebooking_2d@2x.png */,
+				D33C48201E08C654000CAF12 /* moviebooking_3d@2x.png */,
+				D33C48211E08C654000CAF12 /* moviebooking_arrow@2x.png */,
+				D33C48221E08C654000CAF12 /* moviebooking_arrow_default@2x.png */,
+				D33C48231E08C654000CAF12 /* moviebooking_arrow_right@2x.png */,
+				D33C48241E08C654000CAF12 /* moviebooking_arrow_select@2x.png */,
+				D33C48251E08C654000CAF12 /* moviebooking_bus@2x.png */,
+				D33C48261E08C654000CAF12 /* moviebooking_busWay_dark@2x.png */,
+				D33C48271E08C654000CAF12 /* moviebooking_busWay_light@2x.png */,
+				D33C48281E08C654000CAF12 /* moviebooking_call@2x.png */,
+				D33C48291E08C654000CAF12 /* moviebooking_changeDirection@2x.png */,
+				D33C482A1E08C654000CAF12 /* moviebooking_ciname_default@2x.png */,
+				D33C482B1E08C654000CAF12 /* moviebooking_cinema_default@2x.png */,
+				D33C482C1E08C654000CAF12 /* moviebooking_cinema_selected@2x.png */,
+				D33C482D1E08C654000CAF12 /* moviebooking_coupon_newer@2x.png */,
+				D33C482E1E08C654000CAF12 /* moviebooking_coupon_seat@2x.png */,
+				D33C482F1E08C654000CAF12 /* moviebooking_driving@2x.png */,
+				D33C48301E08C654000CAF12 /* moviebooking_drivingWay_dark@2x.png */,
+				D33C48311E08C654000CAF12 /* moviebooking_drivingWay_light@2x.png */,
+				D33C48321E08C654000CAF12 /* moviebooking_film_default@2x.png */,
+				D33C48331E08C654000CAF12 /* moviebooking_film_selected@2x.png */,
+				D33C48341E08C654000CAF12 /* moviebooking_imax3d@2x.png */,
+				D33C48351E08C654000CAF12 /* moviebooking_level@2x.png */,
+				D33C48361E08C654000CAF12 /* moviebooking_lover@2x.png */,
+				D33C48371E08C654000CAF12 /* moviebooking_lover_left@2x.png */,
+				D33C48381E08C654000CAF12 /* moviebooking_lover_right@2x.png */,
+				D33C48391E08C654000CAF12 /* moviebooking_maintain@2x.png */,
+				D33C483A1E08C654000CAF12 /* moviebooking_mapPin@2x.png */,
+				D33C483B1E08C654000CAF12 /* moviebooking_nodata_film@2x.png */,
+				D33C483C1E08C654000CAF12 /* moviebooking_phone@2x.png */,
+				D33C483D1E08C654000CAF12 /* moviebooking_screencenter@2x.png */,
+				D33C483E1E08C654000CAF12 /* moviebooking_search@2x.png */,
+				D33C483F1E08C654000CAF12 /* moviebooking_seat_lover@2x.png */,
+				D33C48401E08C654000CAF12 /* moviebooking_selected@2x.png */,
+				D33C48411E08C654000CAF12 /* moviebooking_selled@2x.png */,
+				D33C48421E08C654000CAF12 /* moviebooking_walking@2x.png */,
+				D33C48431E08C654000CAF12 /* moviebooking_walkingWay_dark@2x.png */,
+				D33C48441E08C654000CAF12 /* moviebooking_walkingWay_light@2x.png */,
+			);
+			path = 2x;
+			sourceTree = "<group>";
+		};
+		D33C48451E08C654000CAF12 /* 3x */ = {
+			isa = PBXGroup;
+			children = (
+				D33C48461E08C654000CAF12 /* movie_arrow_right@3x.png */,
+				D33C48471E08C654000CAF12 /* moviebooking_2d@3x.png */,
+				D33C48481E08C654000CAF12 /* moviebooking_3d@3x.png */,
+				D33C48491E08C654000CAF12 /* moviebooking_arrow@3x.png */,
+				D33C484A1E08C654000CAF12 /* moviebooking_arrow_default@3x.png */,
+				D33C484B1E08C654000CAF12 /* moviebooking_arrow_right@3x.png */,
+				D33C484C1E08C654000CAF12 /* moviebooking_arrow_select@3x.png */,
+				D33C484D1E08C654000CAF12 /* moviebooking_bus@3x.png */,
+				D33C484E1E08C654000CAF12 /* moviebooking_busWay_dark@3x.png */,
+				D33C484F1E08C654000CAF12 /* moviebooking_busWay_light@3x.png */,
+				D33C48501E08C654000CAF12 /* moviebooking_call@3x.png */,
+				D33C48511E08C654000CAF12 /* moviebooking_changeDirection@3x.png */,
+				D33C48521E08C654000CAF12 /* moviebooking_ciname_default@3x.png */,
+				D33C48531E08C654000CAF12 /* moviebooking_cinema_default@3x.png */,
+				D33C48541E08C654000CAF12 /* moviebooking_cinema_selected@3x.png */,
+				D33C48551E08C654000CAF12 /* moviebooking_coupon_newer@3x.png */,
+				D33C48561E08C654000CAF12 /* moviebooking_coupon_seat@3x.png */,
+				D33C48571E08C654000CAF12 /* moviebooking_driving@3x.png */,
+				D33C48581E08C654000CAF12 /* moviebooking_drivingWay_dark@3x.png */,
+				D33C48591E08C654000CAF12 /* moviebooking_drivingWay_light@3x.png */,
+				D33C485A1E08C654000CAF12 /* moviebooking_film_default@3x.png */,
+				D33C485B1E08C654000CAF12 /* moviebooking_film_selected@3x.png */,
+				D33C485C1E08C654000CAF12 /* moviebooking_imax3d@3x.png */,
+				D33C485D1E08C654000CAF12 /* moviebooking_level@3x.png */,
+				D33C485E1E08C654000CAF12 /* moviebooking_lover@3x.png */,
+				D33C485F1E08C654000CAF12 /* moviebooking_lover_left@3x.png */,
+				D33C48601E08C654000CAF12 /* moviebooking_lover_right@3x.png */,
+				D33C48611E08C654000CAF12 /* moviebooking_maintain@3x.png */,
+				D33C48621E08C654000CAF12 /* moviebooking_mapPin@3x.png */,
+				D33C48631E08C654000CAF12 /* moviebooking_nodata_film@3x.png */,
+				D33C48641E08C654000CAF12 /* moviebooking_phone@3x.png */,
+				D33C48651E08C654000CAF12 /* moviebooking_search@3x.png */,
+				D33C48661E08C654000CAF12 /* moviebooking_seat_lover@3x.png */,
+				D33C48671E08C654000CAF12 /* moviebooking_selected@3x.png */,
+				D33C48681E08C654000CAF12 /* moviebooking_selled@3x.png */,
+				D33C48691E08C654000CAF12 /* moviebooking_walking@3x.png */,
+				D33C486A1E08C654000CAF12 /* moviebooking_walkingWay_dark@3x.png */,
+				D33C486B1E08C654000CAF12 /* moviebooking_walkingWay_light@3x.png */,
+			);
+			path = 3x;
+			sourceTree = "<group>";
+		};
+		D33C486C1E08C654000CAF12 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				D33C486D1E08C654000CAF12 /* CCHttpRequest+Movie.h */,
+				D33C486E1E08C654000CAF12 /* CCHttpRequest+Movie.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		D33C486F1E08C654000CAF12 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D33C48701E08C654000CAF12 /* CCCinemaAddPointView.h */,
+				D33C48711E08C654000CAF12 /* CCCinemaAddPointView.m */,
+				D33C48721E08C654000CAF12 /* CCCinemaLinesTbv.h */,
+				D33C48731E08C654000CAF12 /* CCCinemaLinesTbv.m */,
+				D33C48741E08C654000CAF12 /* CCFilmOnWillPlayingTbvCell.h */,
+				D33C48751E08C654000CAF12 /* CCFilmOnWillPlayingTbvCell.m */,
+				D33C48761E08C654000CAF12 /* CCFilmOnWillPlayingTbvCell.xib */,
+				D33C48771E08C654000CAF12 /* CCFilmSeatView.h */,
+				D33C48781E08C654000CAF12 /* CCFilmSeatView.m */,
+				D33C48791E08C654000CAF12 /* CCFilmSelectedSeatView.h */,
+				D33C487A1E08C654000CAF12 /* CCFilmSelectedSeatView.m */,
+				D33C487B1E08C654000CAF12 /* CCFilmShowingTableCell.h */,
+				D33C487C1E08C654000CAF12 /* CCFilmShowingTableCell.m */,
+				D33C487D1E08C654000CAF12 /* CCFilmShowingTableCell.xib */,
+				D33C487E1E08C654000CAF12 /* CCMovieTableCell.h */,
+				D33C487F1E08C654000CAF12 /* CCMovieTableCell.m */,
+				D33C48801E08C654000CAF12 /* CCMovieTableCell.xib */,
+				D33C48811E08C654000CAF12 /* CCNaviLineTableCell.h */,
+				D33C48821E08C654000CAF12 /* CCNaviLineTableCell.m */,
+				D33C48831E08C654000CAF12 /* CCNaviLineTableCell.xib */,
+				D33C48841E08C654000CAF12 /* FilmCinemaDateCollectionCell.h */,
+				D33C48851E08C654000CAF12 /* FilmCinemaDateCollectionCell.m */,
+				D33C48861E08C654000CAF12 /* FilmOnPlayingTbv.h */,
+				D33C48871E08C654000CAF12 /* FilmOnPlayingTbv.m */,
+				D33C48881E08C654000CAF12 /* FilmWillPlayingTbv.h */,
+				D33C48891E08C654000CAF12 /* FilmWillPlayingTbv.m */,
+				D33C488A1E08C654000CAF12 /* MovieBooking.storyboard */,
+				D33C488B1E08C654000CAF12 /* SeatsSelection */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D33C488B1E08C654000CAF12 /* SeatsSelection */ = {
+			isa = PBXGroup;
+			children = (
+				D33C488C1E08C654000CAF12 /* image */,
+				D33C48951E08C654000CAF12 /* Model */,
+				D33C489A1E08C654000CAF12 /* seats 2.plist */,
+				D33C489B1E08C654000CAF12 /* View */,
+			);
+			path = SeatsSelection;
+			sourceTree = "<group>";
+		};
+		D33C488C1E08C654000CAF12 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				D33C488D1E08C654000CAF12 /* choosable@2x.png */,
+				D33C488E1E08C654000CAF12 /* choosable@3x.png */,
+				D33C488F1E08C654000CAF12 /* screenBg@2x.png */,
+				D33C48901E08C654000CAF12 /* screenBg@3x.png */,
+				D33C48911E08C654000CAF12 /* selected@2x.png */,
+				D33C48921E08C654000CAF12 /* selected@3x.png */,
+				D33C48931E08C654000CAF12 /* sold@2x.png */,
+				D33C48941E08C654000CAF12 /* sold@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		D33C48951E08C654000CAF12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D33C48961E08C654000CAF12 /* ZFSeatModel.h */,
+				D33C48971E08C654000CAF12 /* ZFSeatModel.m */,
+				D33C48981E08C654000CAF12 /* ZFSeatsModel.h */,
+				D33C48991E08C654000CAF12 /* ZFSeatsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D33C489B1E08C654000CAF12 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D33C489C1E08C654000CAF12 /* UIView+Extension.h */,
+				D33C489D1E08C654000CAF12 /* UIView+Extension.m */,
+				D33C489E1E08C654000CAF12 /* ZFAppLogoView.h */,
+				D33C489F1E08C654000CAF12 /* ZFAppLogoView.m */,
+				D33C48A01E08C654000CAF12 /* ZFCenterLineView.h */,
+				D33C48A11E08C654000CAF12 /* ZFCenterLineView.m */,
+				D33C48A21E08C654000CAF12 /* ZFHallLogoView.h */,
+				D33C48A31E08C654000CAF12 /* ZFHallLogoView.m */,
+				D33C48A41E08C654000CAF12 /* ZFIndicatorView.h */,
+				D33C48A51E08C654000CAF12 /* ZFIndicatorView.m */,
+				D33C48A61E08C654000CAF12 /* ZFRowIndexView.h */,
+				D33C48A71E08C654000CAF12 /* ZFRowIndexView.m */,
+				D33C48A81E08C654000CAF12 /* ZFSeatButton.h */,
+				D33C48A91E08C654000CAF12 /* ZFSeatButton.m */,
+				D33C48AA1E08C654000CAF12 /* ZFSeatSelectionConfig.h */,
+				D33C48AB1E08C654000CAF12 /* ZFSeatSelectionView.h */,
+				D33C48AC1E08C654000CAF12 /* ZFSeatSelectionView.m */,
+				D33C48AD1E08C654000CAF12 /* ZFSeatsView.h */,
+				D33C48AE1E08C654000CAF12 /* ZFSeatsView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D33C48AF1E08C654000CAF12 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D33C48B01E08C654000CAF12 /* CCConfirmOrderPrivilegeVC.h */,
+				D33C48B11E08C654000CAF12 /* CCConfirmOrderPrivilegeVC.m */,
+				D33C48B21E08C654000CAF12 /* CCFilmCinemaMapLineDetailVC.h */,
+				D33C48B31E08C654000CAF12 /* CCFilmCinemaMapLineDetailVC.m */,
+				D33C48B41E08C654000CAF12 /* CCFilmCinemaMapLinesVC.h */,
+				D33C48B51E08C654000CAF12 /* CCFilmCinemaMapLinesVC.m */,
+				D33C48B61E08C654000CAF12 /* CCFilmCinemaMapVC.h */,
+				D33C48B71E08C654000CAF12 /* CCFilmCinemaMapVC.m */,
+				D33C48B81E08C654000CAF12 /* CCFilmConfirmOrderVC.h */,
+				D33C48B91E08C654000CAF12 /* CCFilmConfirmOrderVC.m */,
+				D33C48BA1E08C654000CAF12 /* CCFilmDetailCinemaSubVC.h */,
+				D33C48BB1E08C654000CAF12 /* CCFilmDetailCinemaSubVC.m */,
+				D33C48BC1E08C654000CAF12 /* CCFilmDetailCinemaVC.h */,
+				D33C48BD1E08C654000CAF12 /* CCFilmDetailCinemaVC.m */,
+				D33C48BE1E08C654000CAF12 /* CCFilmDetailsViewController.h */,
+				D33C48BF1E08C654000CAF12 /* CCFilmDetailsViewController.m */,
+				D33C48C01E08C654000CAF12 /* CCFilmSeatsDetailVC.h */,
+				D33C48C11E08C654000CAF12 /* CCFilmSeatsDetailVC.m */,
+				D33C48C21E08C654000CAF12 /* CCFilmsViewController.h */,
+				D33C48C31E08C654000CAF12 /* CCFilmsViewController.m */,
+				D33C48C41E08C654000CAF12 /* CCMovieMainTabbarVC.h */,
+				D33C48C51E08C654000CAF12 /* CCMovieMainTabbarVC.m */,
+				D33C48C61E08C654000CAF12 /* CCMovieOrderDetailViewController.h */,
+				D33C48C71E08C654000CAF12 /* CCMovieOrderDetailViewController.m */,
+				D33C48C81E08C654000CAF12 /* CCMovieOrderDetailViewController.xib */,
+				D33C48C91E08C654000CAF12 /* CCMovieOrderViewController.h */,
+				D33C48CA1E08C654000CAF12 /* CCMovieOrderViewController.m */,
+				D33C48CB1E08C654000CAF12 /* CCMovieSearchViewController.h */,
+				D33C48CC1E08C654000CAF12 /* CCMovieSearchViewController.m */,
+				D33C48CD1E08C654000CAF12 /* CCMoviesViewController.h */,
+				D33C48CE1E08C654000CAF12 /* CCMoviesViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047F391B1DF5333700DB71FF /* okdeerMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047F39491DF5333700DB71FF /* Build configuration list for PBXNativeTarget "okdeerMovie" */;
+			buildPhases = (
+				2612EEA698B4A966189A6453 /* [CP] Check Pods Manifest.lock */,
+				047F39181DF5333700DB71FF /* Sources */,
+				047F39191DF5333700DB71FF /* Frameworks */,
+				047F391A1DF5333700DB71FF /* Resources */,
+				14C8157206B11855CA244E61 /* [CP] Embed Pods Frameworks */,
+				5B66F89F82D427EF226A196F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = okdeerMovie;
+			productName = okdeerMovie;
+			productReference = 047F391C1DF5333700DB71FF /* okdeerMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047F39341DF5333700DB71FF /* okdeerMovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047F394C1DF5333700DB71FF /* Build configuration list for PBXNativeTarget "okdeerMovieTests" */;
+			buildPhases = (
+				047F39311DF5333700DB71FF /* Sources */,
+				047F39321DF5333700DB71FF /* Frameworks */,
+				047F39331DF5333700DB71FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047F39371DF5333700DB71FF /* PBXTargetDependency */,
+			);
+			name = okdeerMovieTests;
+			productName = okdeerMovieTests;
+			productReference = 047F39351DF5333700DB71FF /* okdeerMovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047F393F1DF5333700DB71FF /* okdeerMovieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047F394F1DF5333700DB71FF /* Build configuration list for PBXNativeTarget "okdeerMovieUITests" */;
+			buildPhases = (
+				047F393C1DF5333700DB71FF /* Sources */,
+				047F393D1DF5333700DB71FF /* Frameworks */,
+				047F393E1DF5333700DB71FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047F39421DF5333700DB71FF /* PBXTargetDependency */,
+			);
+			name = okdeerMovieUITests;
+			productName = okdeerMovieUITests;
+			productReference = 047F39401DF5333700DB71FF /* okdeerMovieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047F39141DF5333700DB71FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = okdeer;
+				TargetAttributes = {
+					047F391B1DF5333700DB71FF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W222R58V26;
+						ProvisioningStyle = Automatic;
+					};
+					047F39341DF5333700DB71FF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W222R58V26;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 047F391B1DF5333700DB71FF;
+					};
+					047F393F1DF5333700DB71FF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W222R58V26;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 047F391B1DF5333700DB71FF;
+					};
+				};
+			};
+			buildConfigurationList = 047F39171DF5333700DB71FF /* Build configuration list for PBXProject "okdeerMovie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047F39131DF5333700DB71FF;
+			productRefGroup = 047F391D1DF5333700DB71FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047F391B1DF5333700DB71FF /* okdeerMovie */,
+				047F39341DF5333700DB71FF /* okdeerMovieTests */,
+				047F393F1DF5333700DB71FF /* okdeerMovieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047F391A1DF5333700DB71FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33C49501E08C655000CAF12 /* moviebooking_seat_lover@3x.png in Resources */,
+				D33C492D1E08C655000CAF12 /* moviebooking_walking@2x.png in Resources */,
+				D33C49321E08C655000CAF12 /* moviebooking_3d@3x.png in Resources */,
+				D33C49251E08C655000CAF12 /* moviebooking_mapPin@2x.png in Resources */,
+				D33C48E71E08C654000CAF12 /* CCCinemaPreferentialTipsVC.xib in Resources */,
+				D33C48F91E08C655000CAF12 /* CCCinemaDetailFilmsScheduleView.xib in Resources */,
+				D33C494E1E08C655000CAF12 /* moviebooking_phone@3x.png in Resources */,
+				D33C49191E08C655000CAF12 /* moviebooking_coupon_seat@2x.png in Resources */,
+				D33C49341E08C655000CAF12 /* moviebooking_arrow_default@3x.png in Resources */,
+				D33C49871E08C655000CAF12 /* CCMovieOrderDetailViewController.xib in Resources */,
+				D33C49301E08C655000CAF12 /* movie_arrow_right@3x.png in Resources */,
+				D33C48DE1E08C654000CAF12 /* Info.plist in Resources */,
+				D33C491E1E08C655000CAF12 /* moviebooking_film_selected@2x.png in Resources */,
+				D33C49131E08C655000CAF12 /* moviebooking_call@2x.png in Resources */,
+				D33C49201E08C655000CAF12 /* moviebooking_level@2x.png in Resources */,
+				D33C495A1E08C655000CAF12 /* CCFilmOnWillPlayingTbvCell.xib in Resources */,
+				D33C491A1E08C655000CAF12 /* moviebooking_driving@2x.png in Resources */,
+				D33C48FD1E08C655000CAF12 /* CCCinemaDetailScaduleFilmsCell.xib in Resources */,
+				D33C494D1E08C655000CAF12 /* moviebooking_nodata_film@3x.png in Resources */,
+				D33C48D41E08C654000CAF12 /* Assets.xcassets in Resources */,
+				D33C49601E08C655000CAF12 /* CCMovieTableCell.xib in Resources */,
+				D33C48D71E08C654000CAF12 /* CCCustomActionTableViewCell.xib in Resources */,
+				D33C49221E08C655000CAF12 /* moviebooking_lover_left@2x.png in Resources */,
+				D33C49231E08C655000CAF12 /* moviebooking_lover_right@2x.png in Resources */,
+				D33C49141E08C655000CAF12 /* moviebooking_changeDirection@2x.png in Resources */,
+				D33C49101E08C655000CAF12 /* moviebooking_bus@2x.png in Resources */,
+				D33C492E1E08C655000CAF12 /* moviebooking_walkingWay_dark@2x.png in Resources */,
+				D33C49041E08C655000CAF12 /* CCFilmOrderDetailView.xib in Resources */,
+				D33C49271E08C655000CAF12 /* moviebooking_phone@2x.png in Resources */,
+				D33C48F21E08C654000CAF12 /* CCCinemaDetailFilmsCollectionViewCell.xib in Resources */,
+				D33C493A1E08C655000CAF12 /* moviebooking_call@3x.png in Resources */,
+				D33C48D51E08C654000CAF12 /* LaunchScreen.storyboard in Resources */,
+				D33C49431E08C655000CAF12 /* moviebooking_drivingWay_light@3x.png in Resources */,
+				D33C48F01E08C654000CAF12 /* CCCinemaDetailCinemaMsgView.xib in Resources */,
+				D33C49151E08C655000CAF12 /* moviebooking_ciname_default@2x.png in Resources */,
+				D33C49091E08C655000CAF12 /* movie_arrow_right@2x.png in Resources */,
+				D33C49711E08C655000CAF12 /* seats 2.plist in Resources */,
+				D33C48FB1E08C655000CAF12 /* CCCinemaDetailFilmsView.xib in Resources */,
+				D33C49451E08C655000CAF12 /* moviebooking_film_selected@3x.png in Resources */,
+				D33C494B1E08C655000CAF12 /* moviebooking_maintain@3x.png in Resources */,
+				D33C49371E08C655000CAF12 /* moviebooking_bus@3x.png in Resources */,
+				D33C49621E08C655000CAF12 /* CCNaviLineTableCell.xib in Resources */,
+				D33C49471E08C655000CAF12 /* moviebooking_level@3x.png in Resources */,
+				D33C490B1E08C655000CAF12 /* moviebooking_3d@2x.png in Resources */,
+				D33C490C1E08C655000CAF12 /* moviebooking_arrow@2x.png in Resources */,
+				D33C49661E08C655000CAF12 /* MovieBooking.storyboard in Resources */,
+				D33C494A1E08C655000CAF12 /* moviebooking_lover_right@3x.png in Resources */,
+				D33C49671E08C655000CAF12 /* choosable@2x.png in Resources */,
+				D33C491C1E08C655000CAF12 /* moviebooking_drivingWay_light@2x.png in Resources */,
+				D33C49381E08C655000CAF12 /* moviebooking_busWay_dark@3x.png in Resources */,
+				D33C492B1E08C655000CAF12 /* moviebooking_selected@2x.png in Resources */,
+				D33C493F1E08C655000CAF12 /* moviebooking_coupon_newer@3x.png in Resources */,
+				D33C493E1E08C655000CAF12 /* moviebooking_cinema_selected@3x.png in Resources */,
+				D33C49421E08C655000CAF12 /* moviebooking_drivingWay_dark@3x.png in Resources */,
+				D33C493B1E08C655000CAF12 /* moviebooking_changeDirection@3x.png in Resources */,
+				D33C49181E08C655000CAF12 /* moviebooking_coupon_newer@2x.png in Resources */,
+				D33C49531E08C655000CAF12 /* moviebooking_walking@3x.png in Resources */,
+				D33C49281E08C655000CAF12 /* moviebooking_screencenter@2x.png in Resources */,
+				D33C493D1E08C655000CAF12 /* moviebooking_cinema_default@3x.png in Resources */,
+				D33C49551E08C655000CAF12 /* moviebooking_walkingWay_light@3x.png in Resources */,
+				D33C49351E08C655000CAF12 /* moviebooking_arrow_right@3x.png in Resources */,
+				D33C490E1E08C655000CAF12 /* moviebooking_arrow_right@2x.png in Resources */,
+				D33C48EE1E08C654000CAF12 /* CCCinemaDetailMsgSeatCollectionCell.xib in Resources */,
+				D33C49361E08C655000CAF12 /* moviebooking_arrow_select@3x.png in Resources */,
+				D33C49291E08C655000CAF12 /* moviebooking_search@2x.png in Resources */,
+				D33C490F1E08C655000CAF12 /* moviebooking_arrow_select@2x.png in Resources */,
+				D33C491D1E08C655000CAF12 /* moviebooking_film_default@2x.png in Resources */,
+				D33C49241E08C655000CAF12 /* moviebooking_maintain@2x.png in Resources */,
+				D33C49681E08C655000CAF12 /* choosable@3x.png in Resources */,
+				D33C496E1E08C655000CAF12 /* sold@3x.png in Resources */,
+				D33C49441E08C655000CAF12 /* moviebooking_film_default@3x.png in Resources */,
+				D33C494C1E08C655000CAF12 /* moviebooking_mapPin@3x.png in Resources */,
+				D33C495E1E08C655000CAF12 /* CCFilmShowingTableCell.xib in Resources */,
+				D33C49211E08C655000CAF12 /* moviebooking_lover@2x.png in Resources */,
+				D33C496B1E08C655000CAF12 /* selected@2x.png in Resources */,
+				D33C490D1E08C655000CAF12 /* moviebooking_arrow_default@2x.png in Resources */,
+				D33C49541E08C655000CAF12 /* moviebooking_walkingWay_dark@3x.png in Resources */,
+				D33C49461E08C655000CAF12 /* moviebooking_imax3d@3x.png in Resources */,
+				D33C492A1E08C655000CAF12 /* moviebooking_seat_lover@2x.png in Resources */,
+				D33C48F71E08C655000CAF12 /* CCCinemaDetailFilmsNoSceduleView.xib in Resources */,
+				D33C49331E08C655000CAF12 /* moviebooking_arrow@3x.png in Resources */,
+				D33C492F1E08C655000CAF12 /* moviebooking_walkingWay_light@2x.png in Resources */,
+				D33C49311E08C655000CAF12 /* moviebooking_2d@3x.png in Resources */,
+				D33C48F41E08C654000CAF12 /* CCCinemaDetailFilmsDateCollectionViewCell.xib in Resources */,
+				D33C49411E08C655000CAF12 /* moviebooking_driving@3x.png in Resources */,
+				D33C49061E08C655000CAF12 /* CCFilmOrderListCell.xib in Resources */,
+				D33C49121E08C655000CAF12 /* moviebooking_busWay_light@2x.png in Resources */,
+				D33C491B1E08C655000CAF12 /* moviebooking_drivingWay_dark@2x.png in Resources */,
+				D33C49161E08C655000CAF12 /* moviebooking_cinema_default@2x.png in Resources */,
+				D33C496C1E08C655000CAF12 /* selected@3x.png in Resources */,
+				D33C49261E08C655000CAF12 /* moviebooking_nodata_film@2x.png in Resources */,
+				D33C494F1E08C655000CAF12 /* moviebooking_search@3x.png in Resources */,
+				D33C49491E08C655000CAF12 /* moviebooking_lover_left@3x.png in Resources */,
+				D33C49391E08C655000CAF12 /* moviebooking_busWay_light@3x.png in Resources */,
+				D33C49481E08C655000CAF12 /* moviebooking_lover@3x.png in Resources */,
+				D33C493C1E08C655000CAF12 /* moviebooking_ciname_default@3x.png in Resources */,
+				D33C48EA1E08C654000CAF12 /* CCCinemaFilterView.xib in Resources */,
+				D33C491F1E08C655000CAF12 /* moviebooking_imax3d@2x.png in Resources */,
+				D33C49521E08C655000CAF12 /* moviebooking_selled@3x.png in Resources */,
+				D33C49511E08C655000CAF12 /* moviebooking_selected@3x.png in Resources */,
+				D33C492C1E08C655000CAF12 /* moviebooking_selled@2x.png in Resources */,
+				D33C49171E08C655000CAF12 /* moviebooking_cinema_selected@2x.png in Resources */,
+				D33C49401E08C655000CAF12 /* moviebooking_coupon_seat@3x.png in Resources */,
+				D33C49691E08C655000CAF12 /* screenBg@2x.png in Resources */,
+				D33C496D1E08C655000CAF12 /* sold@2x.png in Resources */,
+				D33C490A1E08C655000CAF12 /* moviebooking_2d@2x.png in Resources */,
+				D33C496A1E08C655000CAF12 /* screenBg@3x.png in Resources */,
+				D33C49111E08C655000CAF12 /* moviebooking_busWay_dark@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F39331DF5333700DB71FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F393E1DF5333700DB71FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14C8157206B11855CA244E61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-okdeerMovie/Pods-okdeerMovie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2612EEA698B4A966189A6453 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B66F89F82D427EF226A196F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-okdeerMovie/Pods-okdeerMovie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047F39181DF5333700DB71FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33C497D1E08C655000CAF12 /* CCFilmCinemaMapLinesVC.m in Sources */,
+				D33C48F81E08C655000CAF12 /* CCCinemaDetailFilmsScheduleView.m in Sources */,
+				D33C498F1E09003C000CAF12 /* UIImage+vImage.m in Sources */,
+				D33C49001E08C655000CAF12 /* CCFilmOrderDetailModel.m in Sources */,
+				D33C49841E08C655000CAF12 /* CCFilmsViewController.m in Sources */,
+				D33C495B1E08C655000CAF12 /* CCFilmSeatView.m in Sources */,
+				D33C48DB1E08C654000CAF12 /* CCUserInforDatePickerView.m in Sources */,
+				D33C48FC1E08C655000CAF12 /* CCCinemaDetailScaduleFilmsCell.m in Sources */,
+				D33C48E81E08C654000CAF12 /* CCCinemaFilterTableView.m in Sources */,
+				D33C497B1E08C655000CAF12 /* CCConfirmOrderPrivilegeVC.m in Sources */,
+				D33C48EC1E08C654000CAF12 /* CCCinemaDetailMsgDashBorderView.m in Sources */,
+				D33C48FF1E08C655000CAF12 /* CCFilmPlayingListModel.m in Sources */,
+				D33C49751E08C655000CAF12 /* ZFHallLogoView.m in Sources */,
+				D33C49881E08C655000CAF12 /* CCMovieOrderViewController.m in Sources */,
+				D33C495D1E08C655000CAF12 /* CCFilmShowingTableCell.m in Sources */,
+				D33C48FA1E08C655000CAF12 /* CCCinemaDetailFilmsView.m in Sources */,
+				D33C496F1E08C655000CAF12 /* ZFSeatModel.m in Sources */,
+				D33C497C1E08C655000CAF12 /* CCFilmCinemaMapLineDetailVC.m in Sources */,
+				D33C49591E08C655000CAF12 /* CCFilmOnWillPlayingTbvCell.m in Sources */,
+				D33C49761E08C655000CAF12 /* ZFIndicatorView.m in Sources */,
+				D33C49031E08C655000CAF12 /* CCFilmOrderDetailView.m in Sources */,
+				D33C48DD1E08C654000CAF12 /* CCMyUserInforModel.m in Sources */,
+				D33C497A1E08C655000CAF12 /* ZFSeatsView.m in Sources */,
+				D33C48F31E08C654000CAF12 /* CCCinemaDetailFilmsDateCollectionViewCell.m in Sources */,
+				D33C49081E08C655000CAF12 /* CCFilmOrderListVC.m in Sources */,
+				D33C48E51E08C654000CAF12 /* CCCinemaDetailVC.m in Sources */,
+				D33C48D61E08C654000CAF12 /* CCCustomActionTableViewCell.m in Sources */,
+				D33C49781E08C655000CAF12 /* ZFSeatButton.m in Sources */,
+				D33C49741E08C655000CAF12 /* ZFCenterLineView.m in Sources */,
+				D33C49921E09065D000CAF12 /* CCCinemaDetailFilmModel.m in Sources */,
+				D33C49651E08C655000CAF12 /* FilmWillPlayingTbv.m in Sources */,
+				D33C48FE1E08C655000CAF12 /* CCFilmDetailInfoModel.m in Sources */,
+				D33C48E61E08C654000CAF12 /* CCCinemaPreferentialTipsVC.m in Sources */,
+				D33C48D91E08C654000CAF12 /* CCNameAndIdModel.m in Sources */,
+				D33C497F1E08C655000CAF12 /* CCFilmConfirmOrderVC.m in Sources */,
+				D33C48F11E08C654000CAF12 /* CCCinemaDetailFilmsCollectionViewCell.m in Sources */,
+				D33C49831E08C655000CAF12 /* CCFilmSeatsDetailVC.m in Sources */,
+				D33C49571E08C655000CAF12 /* CCCinemaAddPointView.m in Sources */,
+				D33C48D31E08C654000CAF12 /* AppDelegate.mm in Sources */,
+				D33C49771E08C655000CAF12 /* ZFRowIndexView.m in Sources */,
+				D33C498C1E08C655000CAF12 /* ViewController.m in Sources */,
+				D33C48E11E08C654000CAF12 /* CCCinemaDetailFilmsSceduleModel.m in Sources */,
+				D33C498A1E08C655000CAF12 /* CCMoviesViewController.m in Sources */,
+				D33C49011E08C655000CAF12 /* CCFilmOrderListModel.m in Sources */,
+				D33C48E31E08C654000CAF12 /* CCCinemaListModel.m in Sources */,
+				D33C49071E08C655000CAF12 /* CCFilmOrderDetailVC.m in Sources */,
+				D33C49791E08C655000CAF12 /* ZFSeatSelectionView.m in Sources */,
+				D33C49861E08C655000CAF12 /* CCMovieOrderDetailViewController.m in Sources */,
+				D33C48F51E08C654000CAF12 /* CCCinemaDetailFilmsLayout.m in Sources */,
+				D33C49701E08C655000CAF12 /* ZFSeatsModel.m in Sources */,
+				D33C49051E08C655000CAF12 /* CCFilmOrderListCell.m in Sources */,
+				D33C49561E08C655000CAF12 /* CCHttpRequest+Movie.m in Sources */,
+				D33C49641E08C655000CAF12 /* FilmOnPlayingTbv.m in Sources */,
+				D33C48E21E08C654000CAF12 /* CCCinemaDetailFilmsScheduleDateModel.m in Sources */,
+				D33C49851E08C655000CAF12 /* CCMovieMainTabbarVC.m in Sources */,
+				D33C48EB1E08C654000CAF12 /* UIButton+TitleAndImageDispaly.m in Sources */,
+				D33C48D81E08C654000CAF12 /* CCCustomActionView.m in Sources */,
+				D33C49811E08C655000CAF12 /* CCFilmDetailCinemaVC.m in Sources */,
+				D33C49731E08C655000CAF12 /* ZFAppLogoView.m in Sources */,
+				D33C49891E08C655000CAF12 /* CCMovieSearchViewController.m in Sources */,
+				D33C48DC1E08C654000CAF12 /* CCHttpRequest+CCLoginRequest.m in Sources */,
+				D33C48E01E08C654000CAF12 /* CCCinemaDetailFilmsListModel.m in Sources */,
+				D33C49801E08C655000CAF12 /* CCFilmDetailCinemaSubVC.m in Sources */,
+				D33C495F1E08C655000CAF12 /* CCMovieTableCell.m in Sources */,
+				D33C49021E08C655000CAF12 /* CCFilmOrderTypeModel.m in Sources */,
+				D33C48DF1E08C654000CAF12 /* main.m in Sources */,
+				D33C48E91E08C654000CAF12 /* CCCinemaFilterView.m in Sources */,
+				D33C48E41E08C654000CAF12 /* CCCinemaDetailMsgVC.m in Sources */,
+				D33C497E1E08C655000CAF12 /* CCFilmCinemaMapVC.m in Sources */,
+				D33C49631E08C655000CAF12 /* FilmCinemaDateCollectionCell.m in Sources */,
+				D33C48ED1E08C654000CAF12 /* CCCinemaDetailMsgSeatCollectionCell.m in Sources */,
+				D33C48DA1E08C654000CAF12 /* CCNoDataView.m in Sources */,
+				D33C49611E08C655000CAF12 /* CCNaviLineTableCell.m in Sources */,
+				D33C49821E08C655000CAF12 /* CCFilmDetailsViewController.m in Sources */,
+				D33C48EF1E08C654000CAF12 /* CCCinemaDetailCinemaMsgView.m in Sources */,
+				D33C49581E08C655000CAF12 /* CCCinemaLinesTbv.m in Sources */,
+				D33C49721E08C655000CAF12 /* UIView+Extension.m in Sources */,
+				D33C495C1E08C655000CAF12 /* CCFilmSelectedSeatView.m in Sources */,
+				D33C48F61E08C655000CAF12 /* CCCinemaDetailFilmsNoSceduleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F39311DF5333700DB71FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047F393A1DF5333700DB71FF /* okdeerMovieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047F393C1DF5333700DB71FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047F39451DF5333700DB71FF /* okdeerMovieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047F39371DF5333700DB71FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047F391B1DF5333700DB71FF /* okdeerMovie */;
+			targetProxy = 047F39361DF5333700DB71FF /* PBXContainerItemProxy */;
+		};
+		047F39421DF5333700DB71FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047F391B1DF5333700DB71FF /* okdeerMovie */;
+			targetProxy = 047F39411DF5333700DB71FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D33C47B21E08C653000CAF12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D33C47B31E08C653000CAF12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047F39471DF5333700DB71FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		047F39481DF5333700DB71FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047F394A1DF5333700DB71FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A841B41029999366EE45A5C8 /* Pods-okdeerMovie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W222R58V26;
+				GCC_PREFIX_HEADER = okdeerMovie/OkdeerMovie.pch;
+				INFOPLIST_FILE = okdeerMovie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhsys.okdeerMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		047F394B1DF5333700DB71FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3982C70D8DD0C0ECDB333289 /* Pods-okdeerMovie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W222R58V26;
+				GCC_PREFIX_HEADER = okdeerMovie/OkdeerMovie.pch;
+				INFOPLIST_FILE = okdeerMovie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhsys.okdeerMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		047F394D1DF5333700DB71FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W222R58V26;
+				INFOPLIST_FILE = okdeerMovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhsys.okdeerMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/okdeerMovie.app/okdeerMovie";
+			};
+			name = Debug;
+		};
+		047F394E1DF5333700DB71FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W222R58V26;
+				INFOPLIST_FILE = okdeerMovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhsys.okdeerMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/okdeerMovie.app/okdeerMovie";
+			};
+			name = Release;
+		};
+		047F39501DF5333700DB71FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W222R58V26;
+				INFOPLIST_FILE = okdeerMovieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhsys.okdeerMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = okdeerMovie;
+			};
+			name = Debug;
+		};
+		047F39511DF5333700DB71FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W222R58V26;
+				INFOPLIST_FILE = okdeerMovieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhsys.okdeerMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = okdeerMovie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047F39171DF5333700DB71FF /* Build configuration list for PBXProject "okdeerMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047F39471DF5333700DB71FF /* Debug */,
+				047F39481DF5333700DB71FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047F39491DF5333700DB71FF /* Build configuration list for PBXNativeTarget "okdeerMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047F394A1DF5333700DB71FF /* Debug */,
+				047F394B1DF5333700DB71FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047F394C1DF5333700DB71FF /* Build configuration list for PBXNativeTarget "okdeerMovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047F394D1DF5333700DB71FF /* Debug */,
+				047F394E1DF5333700DB71FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047F394F1DF5333700DB71FF /* Build configuration list for PBXNativeTarget "okdeerMovieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047F39501DF5333700DB71FF /* Debug */,
+				047F39511DF5333700DB71FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047F39141DF5333700DB71FF /* Project object */;
+}
